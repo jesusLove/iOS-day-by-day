@@ -12,3 +12,4 @@
 * [Runtime - Glow 技术团队博客](http://tech.glowing.com/cn/objective-c-runtime/)
 * [重识Objective-C Runtime - Smalltalk 与C 的融合· sunnyxx的技术博客(系列)](http://blog.sunnyxx.com/2016/08/13/reunderstanding-runtime-0/)
 * [Swift & the Objective-C Runtime - NShipster](http://nshipster.cn/swift-objc-runtime/)
+* [结合 category 工作原理分析 OC2.0 中的 runtime](http://www.jianshu.com/p/d66d65314add)

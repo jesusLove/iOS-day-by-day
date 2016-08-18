@@ -26,6 +26,7 @@
     self.stu = [[Student alloc] init];
     [self.stu goToShool:@"去学校"];
     [Student learnClass:@"学习"];
+    [self.stu learnChinese:@"学汉语"];
 }
 
 @end

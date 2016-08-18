@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40260CC11D65488600D8CF46 /* ForeignStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 40260CC01D65488600D8CF46 /* ForeignStudent.m */; };
+		40260CC41D6563EA00D8CF46 /* UIViewController+tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 40260CC31D6563EA00D8CF46 /* UIViewController+tracking.m */; };
 		49E773D91D648AAB0053A58D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E773D81D648AAB0053A58D /* main.m */; };
 		49E773DC1D648AAB0053A58D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E773DB1D648AAB0053A58D /* AppDelegate.m */; };
 		49E773DF1D648AAB0053A58D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E773DE1D648AAB0053A58D /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40260CBF1D65488600D8CF46 /* ForeignStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForeignStudent.h; sourceTree = "<group>"; };
+		40260CC01D65488600D8CF46 /* ForeignStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForeignStudent.m; sourceTree = "<group>"; };
+		40260CC21D6563EA00D8CF46 /* UIViewController+tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+tracking.h"; sourceTree = "<group>"; };
+		40260CC31D6563EA00D8CF46 /* UIViewController+tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+tracking.m"; sourceTree = "<group>"; };
 		49E773D41D648AAB0053A58D /* LearnRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E773D81D648AAB0053A58D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49E773DA1D648AAB0053A58D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,8 +71,12 @@
 				49E773DB1D648AAB0053A58D /* AppDelegate.m */,
 				49E773DD1D648AAB0053A58D /* ViewController.h */,
 				49E773DE1D648AAB0053A58D /* ViewController.m */,
+				40260CC21D6563EA00D8CF46 /* UIViewController+tracking.h */,
+				40260CC31D6563EA00D8CF46 /* UIViewController+tracking.m */,
 				49E773EE1D648ACE0053A58D /* Student.h */,
 				49E773EF1D648ACE0053A58D /* Student.m */,
+				40260CBF1D65488600D8CF46 /* ForeignStudent.h */,
+				40260CC01D65488600D8CF46 /* ForeignStudent.m */,
 				49E773E01D648AAB0053A58D /* Main.storyboard */,
 				49E773E31D648AAB0053A58D /* Assets.xcassets */,
 				49E773E51D648AAB0053A58D /* LaunchScreen.storyboard */,
@@ -155,7 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				49E773DF1D648AAB0053A58D /* ViewController.m in Sources */,
+				40260CC41D6563EA00D8CF46 /* UIViewController+tracking.m in Sources */,
 				49E773DC1D648AAB0053A58D /* AppDelegate.m in Sources */,
+				40260CC11D65488600D8CF46 /* ForeignStudent.m in Sources */,
 				49E773D91D648AAB0053A58D /* main.m in Sources */,
 				49E773F01D648ACE0053A58D /* Student.m in Sources */,
 			);
@@ -308,6 +320,7 @@
 				49E773ED1D648AAB0053A58D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
