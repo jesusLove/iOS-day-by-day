@@ -22,4 +22,5 @@
 - (void)goToShool:(NSString *) name;
 
 - (void)learnChinese:(NSString *) string;
+
 @end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401E453B1D66E4790034C15B /* LearnRunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 401E453A1D66E4790034C15B /* LearnRunLoop.m */; };
+		401E45411D66E9300034C15B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 401E45401D66E9300034C15B /* User.m */; };
+		401E45461D66F9500034C15B /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 401E45451D66F9500034C15B /* NSObject+AssociatedObject.m */; };
 		40260CC11D65488600D8CF46 /* ForeignStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 40260CC01D65488600D8CF46 /* ForeignStudent.m */; };
 		40260CC41D6563EA00D8CF46 /* UIViewController+tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 40260CC31D6563EA00D8CF46 /* UIViewController+tracking.m */; };
 		49E773D91D648AAB0053A58D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E773D81D648AAB0053A58D /* main.m */; };
@@ -19,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		401E45391D66E4790034C15B /* LearnRunLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnRunLoop.h; sourceTree = "<group>"; };
+		401E453A1D66E4790034C15B /* LearnRunLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnRunLoop.m; sourceTree = "<group>"; };
+		401E453F1D66E9300034C15B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		401E45401D66E9300034C15B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		401E45441D66F9500034C15B /* NSObject+AssociatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObject.h"; sourceTree = "<group>"; };
+		401E45451D66F9500034C15B /* NSObject+AssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObject.m"; sourceTree = "<group>"; };
 		40260CBF1D65488600D8CF46 /* ForeignStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForeignStudent.h; sourceTree = "<group>"; };
 		40260CC01D65488600D8CF46 /* ForeignStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForeignStudent.m; sourceTree = "<group>"; };
 		40260CC21D6563EA00D8CF46 /* UIViewController+tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+tracking.h"; sourceTree = "<group>"; };
@@ -48,6 +57,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		401E453C1D66E8AD0034C15B /* 消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				49E773EE1D648ACE0053A58D /* Student.h */,
+				49E773EF1D648ACE0053A58D /* Student.m */,
+				40260CBF1D65488600D8CF46 /* ForeignStudent.h */,
+				40260CC01D65488600D8CF46 /* ForeignStudent.m */,
+			);
+			name = "消息转发";
+			sourceTree = "<group>";
+		};
+		401E453D1D66E8FC0034C15B /* Method Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				40260CC21D6563EA00D8CF46 /* UIViewController+tracking.h */,
+				40260CC31D6563EA00D8CF46 /* UIViewController+tracking.m */,
+			);
+			name = "Method Swizzling";
+			sourceTree = "<group>";
+		};
+		401E453E1D66E9120034C15B /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				401E45391D66E4790034C15B /* LearnRunLoop.h */,
+				401E453A1D66E4790034C15B /* LearnRunLoop.m */,
+			);
+			name = RunLoop;
+			sourceTree = "<group>";
+		};
+		401E45421D66F8C60034C15B /* Property应用实例 */ = {
+			isa = PBXGroup;
+			children = (
+				401E453F1D66E9300034C15B /* User.h */,
+				401E45401D66E9300034C15B /* User.m */,
+			);
+			name = "Property应用实例";
+			sourceTree = "<group>";
+		};
+		401E45431D66F8E80034C15B /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				401E45421D66F8C60034C15B /* Property应用实例 */,
+				401E453D1D66E8FC0034C15B /* Method Swizzling */,
+				401E453C1D66E8AD0034C15B /* 消息转发 */,
+				401E45471D66F9570034C15B /* AssociatedObject */,
+			);
+			name = Runtime;
+			sourceTree = "<group>";
+		};
+		401E45471D66F9570034C15B /* AssociatedObject */ = {
+			isa = PBXGroup;
+			children = (
+				401E45441D66F9500034C15B /* NSObject+AssociatedObject.h */,
+				401E45451D66F9500034C15B /* NSObject+AssociatedObject.m */,
+			);
+			name = AssociatedObject;
+			sourceTree = "<group>";
+		};
 		49E773CB1D648AAB0053A58D = {
 			isa = PBXGroup;
 			children = (
@@ -71,12 +138,8 @@
 				49E773DB1D648AAB0053A58D /* AppDelegate.m */,
 				49E773DD1D648AAB0053A58D /* ViewController.h */,
 				49E773DE1D648AAB0053A58D /* ViewController.m */,
-				40260CC21D6563EA00D8CF46 /* UIViewController+tracking.h */,
-				40260CC31D6563EA00D8CF46 /* UIViewController+tracking.m */,
-				49E773EE1D648ACE0053A58D /* Student.h */,
-				49E773EF1D648ACE0053A58D /* Student.m */,
-				40260CBF1D65488600D8CF46 /* ForeignStudent.h */,
-				40260CC01D65488600D8CF46 /* ForeignStudent.m */,
+				401E45431D66F8E80034C15B /* Runtime */,
+				401E453E1D66E9120034C15B /* RunLoop */,
 				49E773E01D648AAB0053A58D /* Main.storyboard */,
 				49E773E31D648AAB0053A58D /* Assets.xcassets */,
 				49E773E51D648AAB0053A58D /* LaunchScreen.storyboard */,
@@ -164,11 +227,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401E45411D66E9300034C15B /* User.m in Sources */,
 				49E773DF1D648AAB0053A58D /* ViewController.m in Sources */,
 				40260CC41D6563EA00D8CF46 /* UIViewController+tracking.m in Sources */,
+				401E45461D66F9500034C15B /* NSObject+AssociatedObject.m in Sources */,
 				49E773DC1D648AAB0053A58D /* AppDelegate.m in Sources */,
 				40260CC11D65488600D8CF46 /* ForeignStudent.m in Sources */,
 				49E773D91D648AAB0053A58D /* main.m in Sources */,
+				401E453B1D66E4790034C15B /* LearnRunLoop.m in Sources */,
 				49E773F01D648ACE0053A58D /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

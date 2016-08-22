@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 #import "Student.h"
+
+#import "LearnRunLoop.h"
+#import "User.h"
 @interface ViewController ()
 @property (nonatomic, strong) Student *stu;
 @end
@@ -17,8 +20,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self createStudent];
+//    [self createStudent];
+//    [self changeValueBlock];
+    
+    
+    //添加RunLoopObserver
+//    [LearnRunLoop addObserverToCurrentRunLoop];
+    
+    User *user = [[User alloc] init];
+    [user getIvar];
+    [user getProperty];
+    
+
+    
+    
 }
+
 /**
  动态绑定
  */
@@ -28,5 +45,26 @@
     [Student learnClass:@"学习"];
     [self.stu learnChinese:@"学汉语"];
 }
+
+
+/**
+ *  __block关键字的底层实现原理
+ *  问题： 在block内如何修改block外部变量？
+ */
+
+- (void)changeValueBlock {
+    __block int a = 0;
+    
+    NSLog(@"定义前： %p", &a); //栈区
+    void (^foo)(void) = ^{
+        a = 1;
+         NSLog(@"Block中： %p", &a); //堆区
+    };
+     NSLog(@"定义后： %p", &a); //堆区
+    foo();
+}
+
+
+
 
 @end

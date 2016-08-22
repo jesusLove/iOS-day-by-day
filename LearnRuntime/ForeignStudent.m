@@ -12,4 +12,5 @@
 - (void)learnChinese:(NSString *)string {
     NSLog(@"learnChinese = %@", string);
 }
+
 @end
