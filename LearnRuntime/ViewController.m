@@ -30,10 +30,6 @@
     User *user = [[User alloc] init];
     [user getIvar];
     [user getProperty];
-    
-
-    
-    
 }
 
 /**
