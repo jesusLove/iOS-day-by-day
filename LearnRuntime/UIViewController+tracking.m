@@ -26,6 +26,12 @@
         Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
         
         
+        
+        
+        //注意： 在交换方法实现，需要判断原有方法实现是否存在，存在才能交换
+        // 如何判断？添加原有方法，如果成功，表示原有方法不存在，失败，表示原有方法存在
+        // 原有方法可能没有实现，所以这里添加方法实现，用自己方法实现
+        // 这样做的好处：方法不存在，直接把自己方法的实现作为原有方法的实现，调用原有方法，就会来到当前方法的实现
         BOOL didAddMethod = class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
         if (didAddMethod) {
             class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
