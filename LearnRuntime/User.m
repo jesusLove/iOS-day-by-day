@@ -56,7 +56,7 @@
             objc_property_attribute_t attr = attrs[i];
             const char *name = attr.name;
             const char *value = attr.value;
-            NSLog(@"属性的描述:%s值：%s", name, value);
+            NSLog(@"属性的特性描述:%s值：%s", name, value);
         }
         free(attrs);
         NSLog(@"\n");
