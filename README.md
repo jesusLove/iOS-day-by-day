@@ -24,6 +24,8 @@
 * [Associated Objects](http://nshipster.cn/associated-objects/) <br>本文讲解关联对象的利与弊，值得阅读。
 
 * [iOS runtime实战应用：成员变量和属性 - 明仔Su](http://www.jianshu.com/p/d361f169423b) <br> 作者使用简单的例子介绍了Runtime实现那些功能。 作者简书中有多篇关于Runtime文章，值得阅读。其他的文章也不错哦！
+* [Runtime 10种用法（没有比这更全的了）](http://www.jianshu.com/p/3182646001d1)
+<br> 作者整理Runtime十种用法。
 
 #### 应用实例
 * [一行代码快速集成tableView头部缩放视图 - 袁峥老师@吖了个峥](http://www.jianshu.com/p/859e3ef76b05) <br>使用runtime实现tableView的头部视图缩放。
