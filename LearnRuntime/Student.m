@@ -10,8 +10,6 @@
 #import <objc/runtime.h>
 #import "ForeignStudent.h"
 @implementation Student
-
-
 /*******************动态方法解析************************/
 /**
  *  动态绑定类方法

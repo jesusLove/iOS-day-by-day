@@ -57,7 +57,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		401E453C1D66E8AD0034C15B /* 消息转发 */ = {
+		401E453C1D66E8AD0034C15B /* Message Forwarding */ = {
 			isa = PBXGroup;
 			children = (
 				49E773EE1D648ACE0053A58D /* Student.h */,
@@ -65,7 +65,7 @@
 				40260CBF1D65488600D8CF46 /* ForeignStudent.h */,
 				40260CC01D65488600D8CF46 /* ForeignStudent.m */,
 			);
-			name = "消息转发";
+			name = "Message Forwarding";
 			sourceTree = "<group>";
 		};
 		401E453D1D66E8FC0034C15B /* Method Swizzling */ = {
@@ -86,33 +86,33 @@
 			name = RunLoop;
 			sourceTree = "<group>";
 		};
-		401E45421D66F8C60034C15B /* Property应用实例 */ = {
+		401E45421D66F8C60034C15B /* Property */ = {
 			isa = PBXGroup;
 			children = (
 				401E453F1D66E9300034C15B /* User.h */,
 				401E45401D66E9300034C15B /* User.m */,
 			);
-			name = "Property应用实例";
+			name = Property;
 			sourceTree = "<group>";
 		};
 		401E45431D66F8E80034C15B /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
-				401E45421D66F8C60034C15B /* Property应用实例 */,
+				401E45421D66F8C60034C15B /* Property */,
 				401E453D1D66E8FC0034C15B /* Method Swizzling */,
-				401E453C1D66E8AD0034C15B /* 消息转发 */,
-				401E45471D66F9570034C15B /* AssociatedObject */,
+				401E453C1D66E8AD0034C15B /* Message Forwarding */,
+				401E45471D66F9570034C15B /* Associated Objects */,
 			);
 			name = Runtime;
 			sourceTree = "<group>";
 		};
-		401E45471D66F9570034C15B /* AssociatedObject */ = {
+		401E45471D66F9570034C15B /* Associated Objects */ = {
 			isa = PBXGroup;
 			children = (
 				401E45441D66F9500034C15B /* NSObject+AssociatedObject.h */,
 				401E45451D66F9500034C15B /* NSObject+AssociatedObject.m */,
 			);
-			name = AssociatedObject;
+			name = "Associated Objects";
 			sourceTree = "<group>";
 		};
 		49E773CB1D648AAB0053A58D = {

@@ -16,11 +16,13 @@
 @interface Student : NSObject
 /**
  *  对比类方法和实例方法
- *
  */
 + (void)learnClass:(NSString *) string;
 - (void)goToShool:(NSString *) name;
 
+/**
+ *  测试forwardInvocation:
+ */
 - (void)learnChinese:(NSString *) string;
 
 @end

@@ -19,12 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+//    消息转发
 //    [self createStudent];
+    
+    
+//    __block关键字的底层实现原理
 //    [self changeValueBlock];
     
     
-    //添加RunLoopObserver
+//    添加RunLoopObserver
 //    [LearnRunLoop addObserverToCurrentRunLoop];
     
     User *user = [[User alloc] init];
@@ -33,7 +36,7 @@
 }
 
 /**
- 动态绑定
+ *  消息转发机制
  */
 - (void)createStudent {
     self.stu = [[Student alloc] init];
@@ -47,7 +50,6 @@
  *  __block关键字的底层实现原理
  *  问题： 在block内如何修改block外部变量？
  */
-
 - (void)changeValueBlock {
     __block int a = 0;
     
