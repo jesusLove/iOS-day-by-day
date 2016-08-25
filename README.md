@@ -24,8 +24,17 @@
 * [Associated Objects](http://nshipster.cn/associated-objects/) <br>本文讲解关联对象的利与弊，值得阅读。
 
 * [iOS runtime实战应用：成员变量和属性 - 明仔Su](http://www.jianshu.com/p/d361f169423b) <br> 作者使用简单的例子介绍了Runtime实现那些功能。 作者简书中有多篇关于Runtime文章，值得阅读。其他的文章也不错哦！
+
 * [Runtime 10种用法（没有比这更全的了）](http://www.jianshu.com/p/3182646001d1)
 <br> 作者整理Runtime十种用法。
+
+* [OC最实用的runtime总结，面试、工作你看我就足够了！](http://www.jianshu.com/p/ab966e8a82e2)
+<br>如何应用运行时？
+1.将某些OC代码转为运行时代码，探究底层，比如block的实现原理；
+2.拦截系统自带的方法调用（Swizzle 黑魔法），比如拦截imageNamed:、viewDidLoad、alloc；
+3.实现分类也可以增加属性；
+4.实现NSCoding的自动归档和自动解档；
+5.实现字典和模型的自动转换。
 
 #### 应用实例
 * [一行代码快速集成tableView头部缩放视图 - 袁峥老师@吖了个峥](http://www.jianshu.com/p/859e3ef76b05) <br>使用runtime实现tableView的头部视图缩放。
