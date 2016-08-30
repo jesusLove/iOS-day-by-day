@@ -28,11 +28,11 @@
     
     
 //    添加RunLoopObserver
-//    [LearnRunLoop addObserverToCurrentRunLoop];
+    [LearnRunLoop addObserverToCurrentRunLoop];
     
-    User *user = [[User alloc] init];
-    [user getIvar];
-    [user getProperty];
+//    User *user = [[User alloc] init];
+//    [user getIvar];
+//    [user getProperty];
 }
 
 /**

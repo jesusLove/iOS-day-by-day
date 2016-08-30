@@ -41,6 +41,7 @@
      *  @return 返回observer
      */
     CFRunLoopObserverRef observer = CFRunLoopObserverCreate(kCFAllocatorDefault, kCFRunLoopAllActivities, YES, 0, &runLoopObserverCallBack, &context);
+    
     if (observer) {
         //将Cocoa的NSRunLoop类型转换为CoreFoundation的CFRunLoopRef类型
         CFRunLoopRef cfloop = [runloop getCFRunLoop];
@@ -64,19 +65,19 @@ static void runLoopObserverCallBack(CFRunLoopObserverRef observer,  CFRunLoopAct
             break;
         }
         case kCFRunLoopBeforeWaiting: {
-            NSLog(@"runloop beforeWaiting");
+            NSLog(@"run loop beforeWaiting");
             break;
         }
         case kCFRunLoopAfterWaiting: {
-            NSLog(@"runloop afterWaiting");
+            NSLog(@"run loop afterWaiting");
             break;
         }
         case kCFRunLoopExit: {
-            NSLog(@"runloop exitWaiting");
+            NSLog(@"run loop exitWaiting");
             break;
         }
         case kCFRunLoopAllActivities: {
-            NSLog(@"runloop all ");
+            NSLog(@"run loop all ");
             break;
         }
     }
