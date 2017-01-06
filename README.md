@@ -1,9 +1,21 @@
 # iOS-day-by-day（持续更新中）
-做iOS开发快一年了，对iOS深层次的理解十分有限，多数都是停留在应用API的级别。想学好iOS需要深入了解他，这样才能得心应手，解决深层次问题。下面是深入学习iOS过程中遇到的经典的文章，整理了方便以后查阅。
+下面是深入学习iOS过程中遇到的经典的文章，整理了方便以后查阅。
 
 ***
-# **博文整理**
-## Runtime 博文链接
+# 目录
+
+
+- [Runtime相关](#Runtime)
+- [RunLoop相关](#RunLoop)
+- [Block相关](#block)
+- [Swift相关](#swift)
+- [常用三方](#三方)
+- [其他]()
+	- [微信小程序](#微信小程序)
+	- [Weex阿里跨平台框架](#weex)
+
+*** 
+## Runtime 博文链接 <p id="Runtime"/>
 
 * ***[Objective-C Runtime Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Introduction/Introduction.html)*** ✨
 
@@ -41,7 +53,7 @@
 #### 应用示例
 * [一行代码快速集成tableView头部缩放视图 - 袁峥老师@吖了个峥](http://www.jianshu.com/p/859e3ef76b05) <br>使用`Runtime`实现`tableView`的头部视图缩放。一个简单的应用示例。
 
-## Runloop 博文链接
+## Runloop 博文链接 <p id="RunLoop"/>
 * [Threading Programming Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html) ✨
 * [NSRunLoop Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSRunLoop_Class/index.html) ✨
 
@@ -66,7 +78,7 @@
 * [关于iOS多线程，你看我就够了](http://www.jianshu.com/p/0b0d9b1f1f19)
 	<br> iOS 开发中几种多线程方案，以及其使用方法和注意事项。当然也会给出几种多线程的案例，在实际使用中感受它们的区别。还有一点需要说明的是，这篇文章将会使用 `Swift` 和 `Objective-C` 两种语言讲解。
 	
-## Block 博文整理
+## Block 博文整理 <p id="block">
 * [Working with Blocks -- Apple](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html) ✨
 
 
@@ -81,17 +93,32 @@
 * [Block 编程](https://hit-alibaba.github.io/interview/iOS/ObjC-Basic/Block.html)
 
 * [招聘一个靠谱的iOS面试题整理（下）37- 39题](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01%E3%80%8A%E6%8B%9B%E8%81%98%E4%B8%80%E4%B8%AA%E9%9D%A0%E8%B0%B1%E7%9A%84iOS%E3%80%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88/%E3%80%8A%E6%8B%9B%E8%81%98%E4%B8%80%E4%B8%AA%E9%9D%A0%E8%B0%B1%E7%9A%84iOS%E3%80%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88%EF%BC%88%E4%B8%8B%EF%BC%89.md#37-%E4%BD%BF%E7%94%A8block%E6%97%B6%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%BC%9A%E5%8F%91%E7%94%9F%E5%BC%95%E7%94%A8%E5%BE%AA%E7%8E%AF%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3)<br> 1. 使用block时什么情况会发生引用循环，如何解决？<br>2. 在block内如何修改block外部变量？<br>3. 使用系统的某些block api（如UIView的block版本写动画时），是否也考虑引用循环问题？
+## Swift  <p id="swift">
+* [The Swift Programming Language](http://wiki.jikexueyuan.com/project/swift/)<br/>极客学院出版，中文版Swift官方文档。
+* [Swifter：Swift开发者必备的Tips（第三版）购买链接](https://objccn.io/products/)<br/>Swifter：Swift开发者必备的Tips第三版，这个链接是购买链接。推荐这本书籍。这本书很赞，内容价值远远超多书的价格。
+* [SwiftGG 走心的 Swift 翻译组](http://swift.gg/archives/)<br/>经常更新Swift文章。
+* [Swift中常用的开源库](https://github.com/SwiftOldDriver/SwiftMarch) ：从开发者角度介绍被广泛运用于实际Swift项目中的开源库。
 
-## 微信小程序
+## 常用三方库 <p id="三方">
+* [常用库整理](http://www.cocoachina.com/ios/20160121/14988.html?_t_t_t=0.020374531857669353) ： 整理了常用的三方库
+* [iOS项目中常用的第三方开源库](http://www.cnblogs.com/tangaofeng/p/4876219.html): 项目开发中常用三方库，避免重复造轮子
+
+# 其他
+## 微信小程序<p id="微信小程序">
 * [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)<br>微信小程序开发资源汇总 wechat weapp
 
 * [gavinkwoe/weapp-ide-crack](https://github.com/gavinkwoe/weapp-ide-crack)<br>【应用号】IDE + 破解 + Demo
 
-## Swift 
-* [The Swift Programming Language](http://wiki.jikexueyuan.com/project/swift/)<br/>极客学院出版，中文版Swift官方文档。
-* [Swifter：Swift开发者必备的Tips（第三版）购买链接](https://objccn.io/products/)<br/>Swifter：Swift开发者必备的Tips第三版，这个链接是购买链接。推荐这本书籍。这本书很赞，内容价值远远超多书的价格。
-* [SwiftGG 走心的 Swift 翻译组](http://swift.gg/archives/)<br/>经常更新Swift文章。
-* [Swift中常用的开源库](https://github.com/SwiftOldDriver/SwiftMarch)从开发者角度介绍被广泛运用于实际Swift项目中的开源库。
+## Weex （阿里跨平台移动开发框架）<p id="weex">
+* [官方文档](https://weex-project.io/cn/)  : Weex官方文档
+* [awesome-weex](https://github.com/joggerplus/awesome-weex#%E9%80%9A%E7%94%A8%E6%95%99%E7%A8%8B) : github中整理关于Weex相关资料，包括：教程，文章，网站，项目等。
 
-## 常用三方库
-[常用库整理](http://www.cocoachina.com/ios/20160121/14988.html?_t_t_t=0.020374531857669353)
+## 设计
+* [高清图片库](https://pixabay.com/) ： 共有约84万张免费高清图片、矢量文件和艺术插图。
+* [简书上整理的设计网站](http://www.jianshu.com/p/db7eab8fe013) : 10年设计路，还是这些网站最好用
+* [Web安全色](http://www.bootcss.com/p/websafecolors/)
+* [RGB颜色值与十六进制颜色码转换工具](http://www.sioe.cn/yingyong/yanse-rgb-16/) : 另外，本网站还提供了一些其他应用工具，例如彩虹字生成器，发光字生成器等等。
+* [Adobe Color CC](https://color.adobe.com/zh/create/color-wheel) : 一个调色板工具
+
+
+
