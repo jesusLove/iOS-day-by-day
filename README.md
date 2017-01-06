@@ -92,3 +92,6 @@
 * [Swifter：Swift开发者必备的Tips（第三版）购买链接](https://objccn.io/products/)<br/>Swifter：Swift开发者必备的Tips第三版，这个链接是购买链接。推荐这本书籍。这本书很赞，内容价值远远超多书的价格。
 * [SwiftGG 走心的 Swift 翻译组](http://swift.gg/archives/)<br/>经常更新Swift文章。
 * [Swift中常用的开源库](https://github.com/SwiftOldDriver/SwiftMarch)从开发者角度介绍被广泛运用于实际Swift项目中的开源库。
+
+## 常用三方库
+[常用库整理](http://www.cocoachina.com/ios/20160121/14988.html?_t_t_t=0.020374531857669353)
