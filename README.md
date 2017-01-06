@@ -13,6 +13,7 @@
 - [其他]()
 	- [微信小程序](#微信小程序)
 	- [Weex阿里跨平台框架](#weex)
+	- [设计](#设计)
 
 *** 
 ## Runtime 博文链接 <p id="Runtime"/>
@@ -113,7 +114,7 @@
 * [官方文档](https://weex-project.io/cn/)  : Weex官方文档
 * [awesome-weex](https://github.com/joggerplus/awesome-weex#%E9%80%9A%E7%94%A8%E6%95%99%E7%A8%8B) : github中整理关于Weex相关资料，包括：教程，文章，网站，项目等。
 
-## 设计
+## 设计 <p id="设计">
 * [高清图片库](https://pixabay.com/) ： 共有约84万张免费高清图片、矢量文件和艺术插图。
 * [简书上整理的设计网站](http://www.jianshu.com/p/db7eab8fe013) : 10年设计路，还是这些网站最好用
 * [Web安全色](http://www.bootcss.com/p/websafecolors/)
