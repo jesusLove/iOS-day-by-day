@@ -5,21 +5,22 @@
 # 目录
 
 
-- [Runtime相关](#Runtime)
-- [RunLoop相关](#RunLoop)
-- [Block相关](#block)
-- [Swift相关](#swift)
-- [常用三方](#三方)
-- [其他]()
+- [Runtime](#Runtime)
+- [RunLoop](#RunLoop)
+- [Block](#block)
+- [Swift](#swift)
+- [Star of me](#star)
+- 其他
 	- [微信小程序](#微信小程序)
 	- [Weex相关（阿里跨平台框架）](#weex)
 	- [设计相关](#设计)
 	- [网站收藏](#网站收藏)
 
 *** 
-## Runtime 博文链接 <p id="Runtime"/>
+## Runtime  <p id="Runtime"/>
 
 * ***[Objective-C Runtime Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Introduction/Introduction.html)*** ✨
+
 
 * ***[Objective-C Runtime Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ObjCRuntimeRef/#//apple_ref/doc/uid/TP40001418-CH1g-126286)*** ✨
 
@@ -52,10 +53,18 @@
 <br>5.实现字典和模型的自动转换。
 <br> 文章给出了实例代码和思路，值得反复阅读练习。
 
+* [ObjC 对象的今生今世](http://www.jianshu.com/p/f725d2828a2f)
+* [神经病院Objective-C Runtime入院第一天——isa和Class](http://www.jianshu.com/p/9d649ce6d0b8)
+* [神经病院Objective-C Runtime住院第二天——消息发送与转发](http://www.jianshu.com/p/4d619b097e20)
+* [神经病院Objective-C Runtime出院第三天——如何正确使用Runtime](http://www.jianshu.com/p/db6dc23834e3)	
+	
+	以上四篇是霜神的，超高质量文章。
+
+
 #### 应用示例
 * [一行代码快速集成tableView头部缩放视图 - 袁峥老师@吖了个峥](http://www.jianshu.com/p/859e3ef76b05) <br>使用`Runtime`实现`tableView`的头部视图缩放。一个简单的应用示例。
 
-## Runloop 博文链接 <p id="RunLoop"/>
+## Runloop  <p id="RunLoop"/>
 * [Threading Programming Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html) ✨
 * [NSRunLoop Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSRunLoop_Class/index.html) ✨
 
@@ -80,7 +89,7 @@
 * [关于iOS多线程，你看我就够了](http://www.jianshu.com/p/0b0d9b1f1f19)
 	<br> iOS 开发中几种多线程方案，以及其使用方法和注意事项。当然也会给出几种多线程的案例，在实际使用中感受它们的区别。还有一点需要说明的是，这篇文章将会使用 `Swift` 和 `Objective-C` 两种语言讲解。
 	
-## Block 博文整理 <p id="block">
+## Block <p id="block">
 * [Working with Blocks -- Apple](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html) ✨
 
 
@@ -101,9 +110,85 @@
 * [SwiftGG 走心的 Swift 翻译组](http://swift.gg/archives/)<br/>经常更新Swift文章。
 * [Swift中常用的开源库](https://github.com/SwiftOldDriver/SwiftMarch) ：从开发者角度介绍被广泛运用于实际Swift项目中的开源库。
 
-## 常用三方库 <p id="三方">
-* [常用库整理](http://www.cocoachina.com/ios/20160121/14988.html?_t_t_t=0.020374531857669353) ： 整理了常用的三方库
-* [iOS项目中常用的第三方开源库](http://www.cnblogs.com/tangaofeng/p/4876219.html): 项目开发中常用三方库，避免重复造轮子
+## Star <p id="Star">
+
+**[禅与 Objective-C 编程艺术](https://github.com/oa414/objc-zen-book-cn#categories)**
+> 中文翻译版
+
+**[Gemini](https://github.com/shoheiyokoyama/Gemini)** 2k +
+>Gemini是用Swift编写的基于滚动的iOS动画框架。
+
+**[IBAnimatable](https://github.com/IBAnimatable/IBAnimatable)** 6.6k+
+>使用IBAnimatable为Interface Store Builder中的App Store应用程序设计和原型化自定义UI，交互，导航，转换和动画。
+
+**[Spring](https://github.com/MengTo/Spring)** 11k+
+>基于Swift的iOS动画库
+
+
+**[spruce-ios](https://github.com/willowtreeapps/spruce-ios)** 2.1k+ 
+>Swift库用于编排屏幕上的动画。
+
+**[Material](https://github.com/CosmicMind/Material)** 8.8k+
+>一个用于创建漂亮应用程序的UI / UX框架
+
+
+**[Hero](https://github.com/lkzhao/Hero)** 11k +
+>一个建立iOS视图控制器转换的库。它在UIKit繁琐的转换API之上提供了一个声明层 - 为开发人员提供了一个简单的任务。
+
+**[Animated-tab-bar](https://github.com/Ramotion/animated-tab-bar)** 8.2k+
+> 封装带动画效果tabBar
+
+**[TextFieldEffects](https://github.com/raulriera/TextFieldEffects)** 4.3k+
+>自定义的UITextFields效果由Codrops启发，使用Swift构建.
+
+**[EFQRCode](https://github.com/EyreFree/EFQRCode)**  2k+ 
+>EFQRCode 是一个轻量级的、用来生成和识别二维码的纯 Swift 库，可根据输入的水印图和图标产生艺术二维码，基于 CoreImage 进行开发。
+
+
+**[FSPagerView](https://github.com/WenchaoD/FSPagerView)** 2.5k +
+
+>FSPagerView是一个优雅的屏幕幻灯片库。这是非常有用的制作横幅视图，产品展示，欢迎/指南页面，屏幕/ ViewController滑块。
+
+**[AudioKit](https://github.com/AudioKit/AudioKit)** 4.3k+ 
+
+>AudioKit是一款适用于iOS，MacOS和tvOS的音频合成，处理和分析平台。
+
+**[Eureka](https://github.com/xmartlabs/Eureka)** 7k +
+
+>Swift中优雅的iOS表单生成器。
+
+**[PopupDialog](https://github.com/Orderella/PopupDialog)**
+>一个简单的，可自定义的弹出警告框，可以代替`UIAlertViewController`。
+
+**[Hue](https://github.com/hyperoslo/Hue)**
+>一个调色板库。
+
+**[Moya](https://github.com/Moya/Moya)** 7.5k + 
+>网络请求库，基于`Alamofire`实现。
+
+**[SQLite.swift](https://github.com/stephencelis/SQLite.swift)** 4.7k + 
+>`SQLite3`安全基于Swift的库
+
+**[SwifterSwift](https://github.com/SwifterSwift/SwifterSwift)** 4k +
+>一个Swift原生扩展包。
+
+**[Charts](https://github.com/danielgindi/Charts)** 16k+
+>强大的图表库。
+
+**[SwiftLint](https://github.com/realm/SwiftLint)** 8k+
+>一个强制Swift风格和约定的工具
+
+
+**[GodEye](https://github.com/zixun/GodEye)** 2.7k+
+>iOS 监控库，使用基于Swift的一行代码自动显示日志，崩溃，网络，ANR，泄漏，CPU，RAM，FPS，NetFlow，文件夹等。
+
+
+**[ActiveLabel.swift](https://github.com/optonaut/ActiveLabel.swift)** 2k+
+> 替换UILabel中的 `#`, `@`,`http://`。
+
+
+**[IGListKit](https://github.com/Instagram/IGListKit)** 7k+
+>Instagram 程序员做的，IGListKit 是数据驱动的 UICollectionView 框架，为了构建快速和可扩展的列表。另外，它有助于你在 app 结束对于大量视图控制器的使用。看看这篇来自 [Ray Wenderlich 的教程](https://www.raywenderlich.com/147162/iglistkit-tutorial-better-uicollectionviews)，关于如何在项目中实现这个库，或者读读这篇 [Rodrigo Cavalcante 的文章](https://medium.com/cocoaacademymag/iglistkit-migrating-an-uitableview-to-iglistkitcollectionview-65a30cf9bac9#.nlslha2yt)，关于迁移现有的 UITableView 到 IGListCollectionView。
 
 # 其他
 ## 微信小程序<p id="微信小程序">
