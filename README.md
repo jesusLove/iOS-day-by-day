@@ -10,9 +10,9 @@
 - [Swift](#swift)
 - [fastlane自动化构建](#fastlane)
 - [组件化](#module)
-- [Star of me](#star)
 - [大前端](#web)
 - [设计相关](#设计)
+- [我Star的库](#star)
 
 *** 
 ## Runtime  <p id="Runtime"/>
@@ -138,6 +138,57 @@
 * [BeeHive-阿里开源iOS模块解耦框架源码解析](https://www.jianshu.com/p/76e2377a6fb4)
 
 
+
+## 大前端 <p id="web">
+
+### Vue 
+
+* [Vue.js 官网](https://cn.vuejs.org/)
+* [Vue Router文档](https://router.vuejs.org/zh-cn/)
+* [Vue Loader文档](https://vue-loader.vuejs.org/zh-cn/)
+* [Axios 尤大推荐的网络库](https://github.com/axios/axios)
+* [Axios 看云中文文档](https://www.kancloud.cn/yunye/axios/234845)
+* [vue开发看这篇文章就够了](https://segmentfault.com/a/1190000012692321#articleHeader69)
+* [Sass 教程](https://www.w3cplus.com/sassguide/)
+* [Stylus 教程](http://www.zhangxinxu.com/jq/stylus/)
+* [Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库](http://element-cn.eleme.io/#/zh-CN)
+* [Mint UI, 基于 Vue.js 的移动端组件库](http://mint-ui.github.io/#!/zh-cn)
+* [ Electron - 使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用](https://electronjs.org/)
+* [Cordova - 使用HTML, CSS & JS进行移动App开发多平台共用一套代码,免费开源](http://cordova.axuer.com/)
+
+### 微信小程序
+
+* [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)<br>微信小程序开发资源汇总 wechat weapp
+
+* [gavinkwoe/weapp-ide-crack](https://github.com/gavinkwoe/weapp-ide-crack)<br>【应用号】IDE + 破解 + Demo
+
+### Weex （阿里跨平台移动开发框架
+
+* [官方文档](https://weex-project.io/cn/)  : Weex官方文档
+* [awesome-weex](https://github.com/joggerplus/awesome-weex#%E9%80%9A%E7%94%A8%E6%95%99%E7%A8%8B) : github中整理关于Weex相关资料，包括：教程，文章，网站，项目等。
+
+## 设计 <p id="设计">
+
+* [高清图片库](https://pixabay.com/) ： 共有约84万张免费高清图片、矢量文件和艺术插图。
+* [简书上整理的设计网站](http://www.jianshu.com/p/db7eab8fe013) : 10年设计路，还是这些网站最好用
+* [Web安全色](http://www.bootcss.com/p/websafecolors/)
+* [RGB颜色值与十六进制颜色码转换工具](http://www.sioe.cn/yingyong/yanse-rgb-16/) : 另外，本网站还提供了一些其他应用工具，例如彩虹字生成器，发光字生成器等等。
+* [Adobe Color CC](https://color.adobe.com/zh/create/color-wheel) : 一个调色板工具
+* [Sketch 中文网](http://www.sketchcn.com/)
+* [Dribbble 大名鼎鼎的设计网站](https://dribbble.com/)
+* [iPhone Design Patterns](https://pttrns.com/iphone-patterns)
+* [国外设计欣赏网站](http://www.doooor.com/)
+* [Material Design](https://material.io/)
+* [京东设计博客jdc.jd.com](https://jdc.jd.com/)
+* [再也不愁找壁纸了](https://www.vladstudio.com/zh/wallpapers/)
+* [高清大图，走起](https://www.pexels.com/)
+
+## 程序员内功
+
+* [程序员必备的代码审查（Code Review）清单](http://blog.jobbole.com/83595/)
+* [深入理解log机制](http://feihu.me/blog/2014/insight-into-log/)
+
+
 ## Star <p id="star">
 
 ### 动画库
@@ -223,56 +274,5 @@
 
 **[IGListKit](https://github.com/Instagram/IGListKit)** 7k+
 >Instagram 程序员做的，IGListKit 是数据驱动的 UICollectionView 框架，为了构建快速和可扩展的列表。另外，它有助于你在 app 结束对于大量视图控制器的使用。看看这篇来自 [Ray Wenderlich 的教程](https://www.raywenderlich.com/147162/iglistkit-tutorial-better-uicollectionviews)，关于如何在项目中实现这个库，或者读读这篇 [Rodrigo Cavalcante 的文章](https://medium.com/cocoaacademymag/iglistkit-migrating-an-uitableview-to-iglistkitcollectionview-65a30cf9bac9#.nlslha2yt)，关于迁移现有的 UITableView 到 IGListCollectionView。
-
-## 大前端 <p id="web">
-
-### Vue 
-
-* [Vue.js 官网](https://cn.vuejs.org/)
-* [Vue Router文档](https://router.vuejs.org/zh-cn/)
-* [Vue Loader文档](https://vue-loader.vuejs.org/zh-cn/)
-* [Axios 尤大推荐的网络库](https://github.com/axios/axios)
-* [Axios 看云中文文档](https://www.kancloud.cn/yunye/axios/234845)
-* [vue开发看这篇文章就够了](https://segmentfault.com/a/1190000012692321#articleHeader69)
-* [Sass 教程](https://www.w3cplus.com/sassguide/)
-* [Stylus 教程](http://www.zhangxinxu.com/jq/stylus/)
-* [Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库](http://element-cn.eleme.io/#/zh-CN)
-* [Mint UI, 基于 Vue.js 的移动端组件库](http://mint-ui.github.io/#!/zh-cn)
-* [ Electron - 使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用](https://electronjs.org/)
-* [Cordova - 使用HTML, CSS & JS进行移动App开发多平台共用一套代码,免费开源](http://cordova.axuer.com/)
-
-### 微信小程序
-
-* [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)<br>微信小程序开发资源汇总 wechat weapp
-
-* [gavinkwoe/weapp-ide-crack](https://github.com/gavinkwoe/weapp-ide-crack)<br>【应用号】IDE + 破解 + Demo
-
-### Weex （阿里跨平台移动开发框架
-
-* [官方文档](https://weex-project.io/cn/)  : Weex官方文档
-* [awesome-weex](https://github.com/joggerplus/awesome-weex#%E9%80%9A%E7%94%A8%E6%95%99%E7%A8%8B) : github中整理关于Weex相关资料，包括：教程，文章，网站，项目等。
-
-## 设计 <p id="设计">
-
-* [高清图片库](https://pixabay.com/) ： 共有约84万张免费高清图片、矢量文件和艺术插图。
-* [简书上整理的设计网站](http://www.jianshu.com/p/db7eab8fe013) : 10年设计路，还是这些网站最好用
-* [Web安全色](http://www.bootcss.com/p/websafecolors/)
-* [RGB颜色值与十六进制颜色码转换工具](http://www.sioe.cn/yingyong/yanse-rgb-16/) : 另外，本网站还提供了一些其他应用工具，例如彩虹字生成器，发光字生成器等等。
-* [Adobe Color CC](https://color.adobe.com/zh/create/color-wheel) : 一个调色板工具
-* [Sketch 中文网](http://www.sketchcn.com/)
-* [Dribbble 大名鼎鼎的设计网站](https://dribbble.com/)
-* [iPhone Design Patterns](https://pttrns.com/iphone-patterns)
-* [国外设计欣赏网站](http://www.doooor.com/)
-* [Material Design](https://material.io/)
-* [京东设计博客jdc.jd.com](https://jdc.jd.com/)
-* [再也不愁找壁纸了](https://www.vladstudio.com/zh/wallpapers/)
-* [高清大图，走起](https://www.pexels.com/)
-
-## 程序员内功
-
-* [程序员必备的代码审查（Code Review）清单](http://blog.jobbole.com/83595/)
-* [深入理解log机制](http://feihu.me/blog/2014/insight-into-log/)
-
-
 
 
