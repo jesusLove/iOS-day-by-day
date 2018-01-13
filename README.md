@@ -4,25 +4,24 @@
 ***
 # 目录
 
-
 - [Runtime](#Runtime)
 - [RunLoop](#RunLoop)
 - [Block](#block)
 - [Swift](#swift)
+- [fastlane自动化构建](#fastlane)
+- [组件化](#module)
 - [Star of me](#star)
-- 其他
-	- [微信小程序](#微信小程序)
-	- [Weex相关（阿里跨平台框架）](#weex)
-	- [设计相关](#设计)
-	- [网站收藏](#网站收藏)
+- [大前端](#web)
+- [设计相关](#设计)
 
 *** 
 ## Runtime  <p id="Runtime"/>
 
 * ***[Objective-C Runtime Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Introduction/Introduction.html)*** ✨
-
+官方文档
 
 * ***[Objective-C Runtime Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ObjCRuntimeRef/#//apple_ref/doc/uid/TP40001418-CH1g-126286)*** ✨
+官方文档
 
 * [南峰子 Runtime系列（1 - 6）](http://southpeak.github.io/blog/2014/10/25/objective-c-runtime-yun-xing-shi-zhi-lei-yu-dui-xiang/) <br>详细介绍了runtime知识。
 
@@ -90,6 +89,7 @@
 	<br> iOS 开发中几种多线程方案，以及其使用方法和注意事项。当然也会给出几种多线程的案例，在实际使用中感受它们的区别。还有一点需要说明的是，这篇文章将会使用 `Swift` 和 `Objective-C` 两种语言讲解。
 	
 ## Block <p id="block">
+
 * [Working with Blocks -- Apple](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html) ✨
 
 
@@ -104,16 +104,43 @@
 * [Block 编程](https://hit-alibaba.github.io/interview/iOS/ObjC-Basic/Block.html)
 
 * [招聘一个靠谱的iOS面试题整理（下）37- 39题](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01%E3%80%8A%E6%8B%9B%E8%81%98%E4%B8%80%E4%B8%AA%E9%9D%A0%E8%B0%B1%E7%9A%84iOS%E3%80%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88/%E3%80%8A%E6%8B%9B%E8%81%98%E4%B8%80%E4%B8%AA%E9%9D%A0%E8%B0%B1%E7%9A%84iOS%E3%80%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88%EF%BC%88%E4%B8%8B%EF%BC%89.md#37-%E4%BD%BF%E7%94%A8block%E6%97%B6%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%BC%9A%E5%8F%91%E7%94%9F%E5%BC%95%E7%94%A8%E5%BE%AA%E7%8E%AF%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3)<br> 1. 使用block时什么情况会发生引用循环，如何解决？<br>2. 在block内如何修改block外部变量？<br>3. 使用系统的某些block api（如UIView的block版本写动画时），是否也考虑引用循环问题？
+
+* [iOS 集合的深复制与浅复制](https://www.zybuluo.com/MicroCai/note/50592)
+
 ## Swift  <p id="swift">
+
 * [The Swift Programming Language](http://wiki.jikexueyuan.com/project/swift/)<br/>极客学院出版，中文版Swift官方文档。
 * [Swifter：Swift开发者必备的Tips（第三版）购买链接](https://objccn.io/products/)<br/>Swifter：Swift开发者必备的Tips第三版，这个链接是购买链接。推荐这本书籍。这本书很赞，内容价值远远超多书的价格。
 * [SwiftGG 走心的 Swift 翻译组](http://swift.gg/archives/)<br/>经常更新Swift文章。
 * [Swift中常用的开源库](https://github.com/SwiftOldDriver/SwiftMarch) ：从开发者角度介绍被广泛运用于实际Swift项目中的开源库。
 
-## Star <p id="Star">
+## Fastlane <p id="fastlane">
 
-**[禅与 Objective-C 编程艺术](https://github.com/oa414/objc-zen-book-cn#categories)**
-> 中文翻译版
+* [官网](https://fastlane.tools)
+* [Github](https://github.com/fastlane/fastlane)
+* [小团队的自动化发布－Fastlane带来的全自动化发布
+](https://whlsxl.github.io/fastlane1/)
+* [Fastlane自动化构建工具(完整解决测试和发布流程)](https://www.jianshu.com/p/edcd8d9430f6)
+* [fastlane 教程: 入门](http://blog.csdn.net/kmyhy/article/details/52441681)
+* [fastlane配置样例](https://www.jianshu.com/p/aa34e6ac47cc?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
+* [插件安装失败解决方案](https://github.com/fastlane/fastlane/issues/8431)
+
+
+## 组件化思想 <p id="module">
+
+* [iOS应用架构谈 组件化方案 - Casa Taloyum](https://casatwy.com/iOS-Modulization.html)
+* [IOS-组件化架构漫谈 - 刘小壮 ](https://www.cnblogs.com/oc-bowen/p/5885476.html)
+* [iOS组件化思路－大神博客研读和思考](https://www.jianshu.com/p/afb9b52143d4)
+* [iOS 混编 模块化/组件化 经验指北](http://zhoulingyu.com/2017/11/24/iOS-Modularization/)
+* [iOS组件化方案-总结第一篇](https://www.jianshu.com/p/2cb4cc8d216e)
+* [iOS组件化方案-总结第二篇](https://www.jianshu.com/p/a5dfd986bfa7)
+* [BeeHive —— 一个优雅但还在完善中的解耦框架](https://www.jianshu.com/p/24f6299ebe82)
+* [BeeHive-阿里开源iOS模块解耦框架源码解析](https://www.jianshu.com/p/76e2377a6fb4)
+
+
+## Star <p id="star">
+
+### 动画库
 
 **[Gemini](https://github.com/shoheiyokoyama/Gemini)** 2k +
 >Gemini是用Swift编写的基于滚动的iOS动画框架。
@@ -123,7 +150,6 @@
 
 **[Spring](https://github.com/MengTo/Spring)** 11k+
 >基于Swift的iOS动画库
-
 
 **[spruce-ios](https://github.com/willowtreeapps/spruce-ios)** 2.1k+ 
 >Swift库用于编排屏幕上的动画。
@@ -137,6 +163,14 @@
 
 **[Animated-tab-bar](https://github.com/Ramotion/animated-tab-bar)** 8.2k+
 > 封装带动画效果tabBar
+
+### 资料库
+
+**[禅与 Objective-C 编程艺术](https://github.com/oa414/objc-zen-book-cn#categories)**
+> 中文翻译版
+
+
+### 其他
 
 **[TextFieldEffects](https://github.com/raulriera/TextFieldEffects)** 4.3k+
 >自定义的UITextFields效果由Codrops启发，使用Swift构建.
@@ -167,7 +201,7 @@
 >网络请求库，基于`Alamofire`实现。
 
 **[SQLite.swift](https://github.com/stephencelis/SQLite.swift)** 4.7k + 
->`SQLite3`安全基于Swift的库
+> `SQLite3` 安全基于Swift的库
 
 **[SwifterSwift](https://github.com/SwifterSwift/SwifterSwift)** 4k +
 >一个Swift原生扩展包。
@@ -190,26 +224,55 @@
 **[IGListKit](https://github.com/Instagram/IGListKit)** 7k+
 >Instagram 程序员做的，IGListKit 是数据驱动的 UICollectionView 框架，为了构建快速和可扩展的列表。另外，它有助于你在 app 结束对于大量视图控制器的使用。看看这篇来自 [Ray Wenderlich 的教程](https://www.raywenderlich.com/147162/iglistkit-tutorial-better-uicollectionviews)，关于如何在项目中实现这个库，或者读读这篇 [Rodrigo Cavalcante 的文章](https://medium.com/cocoaacademymag/iglistkit-migrating-an-uitableview-to-iglistkitcollectionview-65a30cf9bac9#.nlslha2yt)，关于迁移现有的 UITableView 到 IGListCollectionView。
 
-# 其他
-## 微信小程序<p id="微信小程序">
+## 大前端 <p id="web">
+
+### Vue 
+
+* [Vue.js 官网](https://cn.vuejs.org/)
+* [Vue Router文档](https://router.vuejs.org/zh-cn/)
+* [Vue Loader文档](https://vue-loader.vuejs.org/zh-cn/)
+* [Axios 尤大推荐的网络库](https://github.com/axios/axios)
+* [Axios 看云中文文档](https://www.kancloud.cn/yunye/axios/234845)
+* [vue开发看这篇文章就够了](https://segmentfault.com/a/1190000012692321#articleHeader69)
+* [Sass 教程](https://www.w3cplus.com/sassguide/)
+* [Stylus 教程](http://www.zhangxinxu.com/jq/stylus/)
+* [Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库](http://element-cn.eleme.io/#/zh-CN)
+* [Mint UI, 基于 Vue.js 的移动端组件库](http://mint-ui.github.io/#!/zh-cn)
+* [ Electron - 使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用](https://electronjs.org/)
+* [Cordova - 使用HTML, CSS & JS进行移动App开发多平台共用一套代码,免费开源](http://cordova.axuer.com/)
+
+### 微信小程序
+
 * [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)<br>微信小程序开发资源汇总 wechat weapp
 
 * [gavinkwoe/weapp-ide-crack](https://github.com/gavinkwoe/weapp-ide-crack)<br>【应用号】IDE + 破解 + Demo
 
-## Weex （阿里跨平台移动开发框架）<p id="weex">
+### Weex （阿里跨平台移动开发框架
+
 * [官方文档](https://weex-project.io/cn/)  : Weex官方文档
 * [awesome-weex](https://github.com/joggerplus/awesome-weex#%E9%80%9A%E7%94%A8%E6%95%99%E7%A8%8B) : github中整理关于Weex相关资料，包括：教程，文章，网站，项目等。
 
 ## 设计 <p id="设计">
+
 * [高清图片库](https://pixabay.com/) ： 共有约84万张免费高清图片、矢量文件和艺术插图。
 * [简书上整理的设计网站](http://www.jianshu.com/p/db7eab8fe013) : 10年设计路，还是这些网站最好用
 * [Web安全色](http://www.bootcss.com/p/websafecolors/)
 * [RGB颜色值与十六进制颜色码转换工具](http://www.sioe.cn/yingyong/yanse-rgb-16/) : 另外，本网站还提供了一些其他应用工具，例如彩虹字生成器，发光字生成器等等。
 * [Adobe Color CC](https://color.adobe.com/zh/create/color-wheel) : 一个调色板工具
+* [Sketch 中文网](http://www.sketchcn.com/)
+* [Dribbble 大名鼎鼎的设计网站](https://dribbble.com/)
+* [iPhone Design Patterns](https://pttrns.com/iphone-patterns)
+* [国外设计欣赏网站](http://www.doooor.com/)
+* [Material Design](https://material.io/)
+* [京东设计博客jdc.jd.com](https://jdc.jd.com/)
+* [再也不愁找壁纸了](https://www.vladstudio.com/zh/wallpapers/)
+* [高清大图，走起](https://www.pexels.com/)
 
+## 程序员内功
 
+* [程序员必备的代码审查（Code Review）清单](http://blog.jobbole.com/83595/)
+* [深入理解log机制](http://feihu.me/blog/2014/insight-into-log/)
 
-## 网站收藏 <p id="网站收藏">
 
 
 
