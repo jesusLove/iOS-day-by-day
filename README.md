@@ -138,9 +138,22 @@
 * [BeeHive —— 一个优雅但还在完善中的解耦框架](https://www.jianshu.com/p/24f6299ebe82)
 * [BeeHive-阿里开源iOS模块解耦框架源码解析](https://www.jianshu.com/p/76e2377a6fb4)
 
+## 测试
+
+* [[译][祖传] 2017 Swift 单元测试文章资源精华 - 掘金:没有故事的卓同学](https://juejin.im/post/5a58738ff265da3e4b76b62d)
 
 
 ## 大前端 <p id="web">
+
+### Webpack
+
+* [Webpack中文文档](https://doc.webpack-china.org/)
+* [入门Webpack，看这篇就够了 - 简书zhangwang](https://www.jianshu.com/p/42e11515c10f#)
+
+### CSS
+
+* [Sass 教程](https://www.w3cplus.com/sassguide/)
+* [Stylus 教程](http://www.zhangxinxu.com/jq/stylus/)
 
 ### Vue 
 
@@ -149,13 +162,19 @@
 * [Vue Loader文档](https://vue-loader.vuejs.org/zh-cn/)
 * [Axios 尤大推荐的网络库](https://github.com/axios/axios)
 * [Axios 看云中文文档](https://www.kancloud.cn/yunye/axios/234845)
-* [vue开发看这篇文章就够了](https://segmentfault.com/a/1190000012692321#articleHeader69)
-* [Sass 教程](https://www.w3cplus.com/sassguide/)
-* [Stylus 教程](http://www.zhangxinxu.com/jq/stylus/)
+* [vue开发看这篇文章就够了 - segmentfault](https://segmentfault.com/a/1190000012692321#articleHeader69)
+* [技术胖155集前端视频教程-全部免费观看 - 掘金](https://juejin.im/post/5a5bc8c36fb9a01ca26774eb)
+
+#### Vue组件库
+
 * [Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库](http://element-cn.eleme.io/#/zh-CN)
 * [Mint UI, 基于 Vue.js 的移动端组件库](http://mint-ui.github.io/#!/zh-cn)
+
+### 框架
+
 * [ Electron - 使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用](https://electronjs.org/)
 * [Cordova - 使用HTML, CSS & JS进行移动App开发多平台共用一套代码,免费开源](http://cordova.axuer.com/)
+
 
 ### 微信小程序
 
