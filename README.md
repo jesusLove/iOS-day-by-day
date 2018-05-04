@@ -1,19 +1,33 @@
 # iOS-day-by-day（持续更新中）
-下面是深入学习iOS过程中遇到的经典的文章，整理了方便以后查阅。欢迎小伙伴加入，一起分享，学习。
+
+学习过程中遇到的经典的文章，整理了方便以后查阅。欢迎小伙伴加入，一起学习和分享。
 
 # 目录
-
-- [Runtime](#Runtime)
-- [RunLoop](#RunLoop)
-- [Block](#block)
-- [Swift](#swift)
-- [fastlane自动化构建](#fastlane)
-- [组件化](#module)
+- [iOS]()
+	- [Runtime](#Runtime)
+	- [RunLoop](#RunLoop)
+	- [Block](#block)
+	- [Swift](#swift)
+	- [fastlane自动化构建](#fastlane)
+	- [组件化思想](#module)
+	- [iOS面试](#interview)
+	- [源码分析](#sourceCode)
+	- [其他](#sourceCode)
+- [算法](#ALG)
+	- [刷题网站](#alg_site)
+- [计算机网络](#net)
 - [大前端](#web)
+	- [基础](#web)
+	- [Vue](#web)
+	- [Weex](#web)
+	- [微信小程序](#web) 
+	- [其他](#web)
 - [设计相关](#设计)
 - [我Star的库](#star)
 
-*** 
+
+# iOS 
+
 ## Runtime  <p id="Runtime"/>
 
 * ***[Objective-C Runtime Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Introduction/Introduction.html)*** ✨
@@ -54,13 +68,16 @@
 * [ObjC 对象的今生今世](http://www.jianshu.com/p/f725d2828a2f)
 * [神经病院Objective-C Runtime入院第一天——isa和Class](http://www.jianshu.com/p/9d649ce6d0b8)
 * [神经病院Objective-C Runtime住院第二天——消息发送与转发](http://www.jianshu.com/p/4d619b097e20)
-* [神经病院Objective-C Runtime出院第三天——如何正确使用Runtime](http://www.jianshu.com/p/db6dc23834e3)	
-	
-	以上四篇是霜神的，超高质量文章。
+* [神经病院Objective-C Runtime出院第三天——如何正确使用Runtime](http://www.jianshu.com/p/db6dc23834e3)
+	以上四篇是霜神的，超高质量文章
 
+* [iOS Runtime详解](https://juejin.im/post/5ac0a6116fb9a028de44d717)
+* [iOS底层原理总结 - 探寻KVO本质](https://juejin.im/post/5adab70cf265da0b736d37a8)
 
 ### 应用示例
 * [一行代码快速集成tableView头部缩放视图 - 袁峥老师@吖了个峥](http://www.jianshu.com/p/859e3ef76b05) <br>使用`Runtime`实现`tableView`的头部视图缩放。一个简单的应用示例。
+* [懒人做开发系列：利用Object-C特性埋点](https://juejin.im/post/5add5af2f265da0b9e64aa78) 
+* [iOS数据埋点统计方案选型(附Demo)：运行时Method Swizzling机制与AOP编程(面向切面编程)](https://juejin.im/post/5ae28f686fb9a07aaf34ee27)
 
 ## Runloop  <p id="RunLoop"/>
 * [Threading Programming Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html) ✨
@@ -87,6 +104,9 @@
 * [关于iOS多线程，你看我就够了](http://www.jianshu.com/p/0b0d9b1f1f19)
 	<br> iOS 开发中几种多线程方案，以及其使用方法和注意事项。当然也会给出几种多线程的案例，在实际使用中感受它们的区别。还有一点需要说明的是，这篇文章将会使用 `Swift` 和 `Objective-C` 两种语言讲解。
 	
+* [iOS RunLoop详解](https://juejin.im/post/5aca2b0a6fb9a028d700e1f8)
+* [iOS底层原理总结 - RunLoop](https://juejin.im/post/5add46606fb9a07abf721d1d)
+	
 ## Block <p id="block">
 
 * [Working with Blocks -- Apple](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html) ✨
@@ -105,6 +125,8 @@
 * [招聘一个靠谱的iOS面试题整理（下）37- 39题](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01%E3%80%8A%E6%8B%9B%E8%81%98%E4%B8%80%E4%B8%AA%E9%9D%A0%E8%B0%B1%E7%9A%84iOS%E3%80%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88/%E3%80%8A%E6%8B%9B%E8%81%98%E4%B8%80%E4%B8%AA%E9%9D%A0%E8%B0%B1%E7%9A%84iOS%E3%80%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88%EF%BC%88%E4%B8%8B%EF%BC%89.md#37-%E4%BD%BF%E7%94%A8block%E6%97%B6%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%BC%9A%E5%8F%91%E7%94%9F%E5%BC%95%E7%94%A8%E5%BE%AA%E7%8E%AF%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3)<br> 1. 使用block时什么情况会发生引用循环，如何解决？<br>2. 在block内如何修改block外部变量？<br>3. 使用系统的某些block api（如UIView的block版本写动画时），是否也考虑引用循环问题？
 
 * [iOS 集合的深复制与浅复制](https://www.zybuluo.com/MicroCai/note/50592)
+
+* [iOS中Block的用法，示例，应用场景，与底层原理解析（这可能是最详细的Block解析)](https://juejin.im/post/5add619f6fb9a07ac90cced6)
 
 ## Swift  <p id="swift">
 
@@ -135,25 +157,61 @@
 * [iOS组件化方案-总结第二篇](https://www.jianshu.com/p/a5dfd986bfa7)
 * [BeeHive —— 一个优雅但还在完善中的解耦框架](https://www.jianshu.com/p/24f6299ebe82)
 * [BeeHive-阿里开源iOS模块解耦框架源码解析](https://www.jianshu.com/p/76e2377a6fb4)
+* [iOS大型项目解耦方案有难度？BeeHive设计优化来帮助](https://yq.aliyun.com/articles/71685?utm_campaign=wenzhang&utm_medium=article&utm_source=QQ-qun&utm_content=m_12590)
 
 ## 测试
 
 * [[译][祖传] 2017 Swift 单元测试文章资源精华 - 掘金:没有故事的卓同学](https://juejin.im/post/5a58738ff265da3e4b76b62d)
 
+## iOS面试 <p id="interview">
 
-## 大前端 <p id="web">
+* [一个渣硕iOS春招总结 | 掘金技术征文](https://juejin.im/post/5ad541e0f265da23994f032c)
+* [我是如何在天猫、蚂蚁金服、百度等大厂面试中被拒的 | 掘金技术征文](https://juejin.im/post/5ad80ad35188252eae3b22a4)
+* [2018.4月份iOS面试经历](https://juejin.im/post/5adaed6a518825673123c757)
+* [iOS面试败北感悟 | 掘金技术征文](https://juejin.im/post/5ad0e8975188255c9323b490)
 
-### Webpack
+
+## 源码分析 <p id="sourceCode">
+
+### SDWebImage
+
+* [SDWebImage 源码解析](https://juejin.im/post/5a4080d16fb9a0451969d0aa)
+* [SDWebImage源码解析(一) - (四)](https://huang303513.github.io/2017/05/01/SDWebImage%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90(%E4%B8%80).html)
+
+## 其他
+
+* [iOS 性能优化总结](https://juejin.im/post/5ace078cf265da23994ee493)
+* [iOS crash 日志堆栈解析](https://juejin.im/post/5adf15f2518825671775f3e1)
+* [【iOS】让我们一次性解决导航栏的所有问题](https://www.jianshu.com/p/31f177158c9e)
+* [iOS右滑返回手势深度全解和最佳实施方案](https://juejin.im/post/5adeda3051882567336a5dc9)
+* [iOS 移动端架构初探心得](https://juejin.im/post/5a183f38f265da432528fefc)
+* [禅与 Objective-C 编程艺术 - 中文翻译版](https://github.com/oa414/objc-zen-book-cn#categories) 
+* [程序员必备的代码审查（Code Review）清单](http://blog.jobbole.com/83595/)
+* [深入理解log机制](http://feihu.me/blog/2014/insight-into-log/)
+
+
+# 算法<p id="ALG">
+
+## 网站<p id="alg_site">
+* [leetCode](https://leetcode-cn.com/explore/)
+* [牛客网](https://www.nowcoder.com/1858906)
+
+# 计算机网络<p id="net">
+
+* [分分钟让你理解HTTPS](https://juejin.im/post/5ad6ad575188255c272273c4)
+* [面试 -- 网络 HTTP](https://juejin.im/post/5872309261ff4b005c4580d4)
+
+# 大前端 <p id="web">
+
+## 基础
 
 * [Webpack中文文档](https://doc.webpack-china.org/)
 * [入门Webpack，看这篇就够了 - 简书zhangwang](https://www.jianshu.com/p/42e11515c10f#)
-
-### CSS
-
 * [Sass 教程](https://www.w3cplus.com/sassguide/)
 * [Stylus 教程](http://www.zhangxinxu.com/jq/stylus/)
+* [2018前端值得关注的技术](https://juejin.im/post/5a519d305188257327396da5)
 
-### Vue 
+## Vue 
 
 * [Vue.js 官网](https://cn.vuejs.org/)
 * [Vue Router文档](https://router.vuejs.org/zh-cn/)
@@ -163,29 +221,29 @@
 * [vue开发看这篇文章就够了 - segmentfault](https://segmentfault.com/a/1190000012692321#articleHeader69)
 * [技术胖155集前端视频教程-全部免费观看 - 掘金](https://juejin.im/post/5a5bc8c36fb9a01ca26774eb)
 
-#### Vue组件库
+### Vue组件库
 
 * [Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库](http://element-cn.eleme.io/#/zh-CN)
 * [Mint UI, 基于 Vue.js 的移动端组件库](http://mint-ui.github.io/#!/zh-cn)
 
-### 框架
+## Weex （阿里跨平台移动开发框架)
 
-* [ Electron - 使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用](https://electronjs.org/)
-* [Cordova - 使用HTML, CSS & JS进行移动App开发多平台共用一套代码,免费开源](http://cordova.axuer.com/)
+* [官方文档](https://weex-project.io/cn/)  : Weex官方文档
+* [awesome-weex](https://github.com/joggerplus/awesome-weex#%E9%80%9A%E7%94%A8%E6%95%99%E7%A8%8B) : github中整理关于Weex相关资料，包括：教程，文章，网站，项目等。
 
-
-### 微信小程序
+## 微信小程序
 
 * [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)<br>微信小程序开发资源汇总 wechat weapp
 
 * [gavinkwoe/weapp-ide-crack](https://github.com/gavinkwoe/weapp-ide-crack)<br>【应用号】IDE + 破解 + Demo
 
-### Weex （阿里跨平台移动开发框架
+## 其他
 
-* [官方文档](https://weex-project.io/cn/)  : Weex官方文档
-* [awesome-weex](https://github.com/joggerplus/awesome-weex#%E9%80%9A%E7%94%A8%E6%95%99%E7%A8%8B) : github中整理关于Weex相关资料，包括：教程，文章，网站，项目等。
+* [ Electron - 使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用](https://electronjs.org/)
+* [Cordova - 使用HTML, CSS & JS进行移动App开发多平台共用一套代码,免费开源](http://cordova.axuer.com/)
 
-## 设计 <p id="设计">
+
+# 设计 <p id="设计">
 
 * [高清图片库](https://pixabay.com/) ： 共有约84万张免费高清图片、矢量文件和艺术插图。
 * [简书上整理的设计网站](http://www.jianshu.com/p/db7eab8fe013) : 10年设计路，还是这些网站最好用
@@ -200,11 +258,6 @@
 * [京东设计博客jdc.jd.com](https://jdc.jd.com/)
 * [再也不愁找壁纸了](https://www.vladstudio.com/zh/wallpapers/)
 * [高清大图，走起](https://www.pexels.com/)
-
-## 程序员内功
-
-* [程序员必备的代码审查（Code Review）清单](http://blog.jobbole.com/83595/)
-* [深入理解log机制](http://feihu.me/blog/2014/insight-into-log/)
 
 
 ## Star <p id="star">
@@ -232,12 +285,6 @@
 
 **[Animated-tab-bar](https://github.com/Ramotion/animated-tab-bar)** 8.2k+
 > 封装带动画效果tabBar
-
-### 资料库
-
-**[禅与 Objective-C 编程艺术](https://github.com/oa414/objc-zen-book-cn#categories)**
-> 中文翻译版
-
 
 ### 其他
 
