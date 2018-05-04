@@ -22,6 +22,7 @@
 	- [Weex](#web)
 	- [微信小程序](#web) 
 	- [其他](#web)
+- [其他资料](#other)
 - [设计相关](#设计)
 - [我Star的库](#star)
 
@@ -188,6 +189,7 @@
 * [禅与 Objective-C 编程艺术 - 中文翻译版](https://github.com/oa414/objc-zen-book-cn#categories) 
 * [程序员必备的代码审查（Code Review）清单](http://blog.jobbole.com/83595/)
 * [深入理解log机制](http://feihu.me/blog/2014/insight-into-log/)
+* [iOS Tips 知识小集- Github](https://github.com/awesome-tips/iOS-Tips)
 
 
 # 算法<p id="ALG">
@@ -260,7 +262,13 @@
 * [高清大图，走起](https://www.pexels.com/)
 
 
-## Star <p id="star">
+# 其他资料 <p id="other">
+
+* [高质量的 Git 中文教程，来自国外社区的优秀文章和个人实践](https://github.com/geeeeeeeeek/git-recipes/wiki)
+* [程序员技能图谱 -- Github](https://github.com/TeamStuQ/skill-map)
+* [掘金翻译计划 - Github](https://github.com/xitu/gold-miner)
+
+# Star <p id="star">
 
 ### 动画库
 
