@@ -46,7 +46,7 @@
 
 * [Swift & the Objective-C Runtime - NShipster](http://nshipster.cn/swift-objc-runtime/) <br>从Swift 视角来观察这两个运行时中关于关联对象(associated objects)和方法交叉(method swizzling)的技术
 
-* [结合 category 工作原理分析 OC2.0 中的 runtime - bestswifter](http://www.jianshu.com/p/d66d65314add) <br>很多人都读过`runtime.h`中`objc_class`结构体代码，你思考过`OBJC2_UNAVAILABLE`是什么意思吗？请看这篇文章，深入较少category工作原理。
+* [结合 category 工作原理分析 OC2.0 中的 runtime - bestswifter](https://bestswifter.com/runtime-category/) <br>很多人都读过`runtime.h`中`objc_class`结构体代码，你思考过`OBJC2_UNAVAILABLE`是什么意思吗？请看这篇文章，深入较少category工作原理。
 
 * [Associated Objects](http://nshipster.cn/associated-objects/) <br>本文讲解关联对象的利与弊，值得阅读。
 
@@ -266,6 +266,7 @@
 * [高质量的 Git 中文教程，来自国外社区的优秀文章和个人实践](https://github.com/geeeeeeeeek/git-recipes/wiki)
 * [程序员技能图谱 -- Github](https://github.com/TeamStuQ/skill-map)
 * [掘金翻译计划 - Github](https://github.com/xitu/gold-miner)
+* [Programming Notes for Professionals books - Stack Overflow Document汇总PDF](https://goalkicker.com/) 一个神奇的免费下载PDF网站。
 
 # Star <p id="star">
 
