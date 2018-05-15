@@ -22,6 +22,7 @@
 	- [Weex](#web)
 	- [微信小程序](#web) 
 	- [其他](#web)
+- [机器学习/深度学习](#ml)
 - [其他资料](#other)
 - [设计相关](#设计)
 - [我Star的库](#star)
@@ -237,6 +238,7 @@
 * [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)<br>微信小程序开发资源汇总 wechat weapp
 
 * [gavinkwoe/weapp-ide-crack](https://github.com/gavinkwoe/weapp-ide-crack)<br>【应用号】IDE + 破解 + Demo
+* [小程序开发课程 - 优达学城(免费)](https://cn.udacity.com/course/wechat-mini-program--ud666-cn-1)
 
 ## 其他
 
@@ -260,6 +262,10 @@
 * [再也不愁找壁纸了](https://www.vladstudio.com/zh/wallpapers/)
 * [高清大图，走起](https://www.pexels.com/)
 
+# 机器学习/深度学习 <p id="ml">
+
+* [网易云课堂微专业|深度学习课程 - 吴恩达（免费）](https://mooc.study.163.com/smartSpec/detail/1001319001.htm)
+* [深度学习课程 - 百度网盘(密码: fk2r)](https://pan.baidu.com/s/1zkfWwKXnWUmZ4ep1YbJxDA)
 
 # 其他资料 <p id="other">
 
@@ -293,6 +299,7 @@
 
 **[Animated-tab-bar](https://github.com/Ramotion/animated-tab-bar)** 8.2k+
 > 封装带动画效果tabBar
+
 
 ### 其他
 
