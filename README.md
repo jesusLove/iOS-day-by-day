@@ -150,7 +150,14 @@
 
 ## 组件化思想 <p id="module">
 
+* [蘑菇街 App 的组件化之路](http://limboy.me/tech/2016/03/10/mgj-components.html)
+* [蘑菇街 App 的组件化之路·续](http://limboy.me/tech/2016/03/14/mgj-components-continued.html)
+* [iOS应用架构谈 开篇  - Casa Taloyum](https://casatwy.com/iosying-yong-jia-gou-tan-kai-pian.html)
+* [iOS应用架构谈 view层的组织和调用方案  - Casa Taloyum](https://casatwy.com/iosying-yong-jia-gou-tan-viewceng-de-zu-zhi-he-diao-yong-fang-an.html)
+* [iOS应用架构谈 网络层设计方案  - Casa Taloyum](https://casatwy.com/iosying-yong-jia-gou-tan-wang-luo-ceng-she-ji-fang-an.html)
+* [iOS应用架构谈 本地持久化方案及动态部署 - Casa Taloyum](https://casatwy.com/iosying-yong-jia-gou-tan-ben-di-chi-jiu-hua-fang-an-ji-dong-tai-bu-shu.html)
 * [iOS应用架构谈 组件化方案 - Casa Taloyum](https://casatwy.com/iOS-Modulization.html)
+* [在现有工程中实施基于CTMediator的组件化方案  - Casa Taloyum](https://casatwy.com/modulization_in_action.html)
 * [IOS-组件化架构漫谈 - 刘小壮 ](https://www.cnblogs.com/oc-bowen/p/5885476.html)
 * [iOS组件化思路－大神博客研读和思考](https://www.jianshu.com/p/afb9b52143d4)
 * [iOS 混编 模块化/组件化 经验指北](http://zhoulingyu.com/2017/11/24/iOS-Modularization/)
@@ -159,6 +166,7 @@
 * [BeeHive —— 一个优雅但还在完善中的解耦框架](https://www.jianshu.com/p/24f6299ebe82)
 * [BeeHive-阿里开源iOS模块解耦框架源码解析](https://www.jianshu.com/p/76e2377a6fb4)
 * [iOS大型项目解耦方案有难度？BeeHive设计优化来帮助](https://yq.aliyun.com/articles/71685?utm_campaign=wenzhang&utm_medium=article&utm_source=QQ-qun&utm_content=m_12590)
+
 
 ## 测试
 
