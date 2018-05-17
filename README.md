@@ -14,7 +14,6 @@
 	- [源码分析](#sourceCode)
 	- [其他](#sourceCode)
 - [算法](#ALG)
-	- [刷题网站](#alg_site)
 - [计算机网络](#net)
 - [大前端](#web)
 	- [基础](#web)
@@ -203,9 +202,9 @@
 
 # 算法<p id="ALG">
 
-## 网站<p id="alg_site">
-* [leetCode](https://leetcode-cn.com/explore/)
-* [牛客网](https://www.nowcoder.com/1858906)
+* [leetCode - 刷题网站](https://leetcode-cn.com/explore/)
+* [牛客网 - 刷题网站](https://www.nowcoder.com/1858906)
+* [剑指Offer——名企面试官精讲典型编程题Github 题解 - gatieme/CodingInterviews](https://github.com/gatieme/CodingInterviews)
 
 # 计算机网络<p id="net">
 
