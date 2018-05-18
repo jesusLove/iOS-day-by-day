@@ -245,6 +245,9 @@
 
 * [React Native 中文网](https://reactnative.cn/)
 * [React Native 官网](https://facebook.github.io/react-native/)
+* [React Native 教程 - 航歌](http://www.hangge.com/blog/cache/category_76_3.html)
+* [reactnativecn/react-native-guide](https://github.com/reactnativecn/react-native-guide)
+* [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native)
 
 ## 微信小程序
 
