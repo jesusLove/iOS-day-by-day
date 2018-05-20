@@ -248,6 +248,7 @@
 * [React Native 教程 - 航歌](http://www.hangge.com/blog/cache/category_76_3.html)
 * [reactnativecn/react-native-guide](https://github.com/reactnativecn/react-native-guide)
 * [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native)
+* [从navigator到react-navigation进阶教程](http://www.devio.org/2018/05/15/navigator-to-react-navigation/)
 
 ## 微信小程序
 
