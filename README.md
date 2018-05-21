@@ -220,6 +220,7 @@
 * [Sass 教程](https://www.w3cplus.com/sassguide/)
 * [Stylus 教程](http://www.zhangxinxu.com/jq/stylus/)
 * [2018前端值得关注的技术](https://juejin.im/post/5a519d305188257327396da5)
+* [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/)
 
 ## Vue 
 
@@ -246,6 +247,7 @@
 * [React Native 中文网](https://reactnative.cn/)
 * [React Native 官网](https://facebook.github.io/react-native/)
 * [React Native 教程 - 航歌](http://www.hangge.com/blog/cache/category_76_3.html)
+* [一份传男也传女的 React Native 学习笔记](https://juejin.im/post/5af5396a51882542af03f0d3)
 * [reactnativecn/react-native-guide](https://github.com/reactnativecn/react-native-guide)
 * [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native)
 * [从navigator到react-navigation进阶教程](http://www.devio.org/2018/05/15/navigator-to-react-navigation/)
