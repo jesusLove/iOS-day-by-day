@@ -3,6 +3,7 @@
 学习过程中遇到的经典的文章，整理了方便以后查阅。欢迎小伙伴加入，一起学习和分享。
 
 # 目录
+- [优秀博客](#blog)
 - [iOS]()
 	- [Runtime](#Runtime)
 	- [RunLoop](#RunLoop)
@@ -27,8 +28,33 @@
 - [设计相关](#设计)
 - [我Star的库](#star)
 
+# 优秀博客 <p id="blog">
+||优秀博客（排名不分先后）||
+|:---------|:------------:|---------:|
+|[Andy矢倉](http://www.rockerhx.com/)|[WeRead团队博客](https://wereadteam.github.io/)|[贾鹏辉的技术博客](http://www.devio.org/)|
+|[杜玮的博客](https://dywane.github.io/)|[黄文臣](https://blog.csdn.net/Hello_Hwc)|[唐巧的博客](http://blog.devtang.com/)|
+|[limboy](http://limboy.me/)|[Garan no Dou | 一只魔法师的工坊](https://blog.ibireme.com/)|[Kitten 的时间胶囊](http://kittenyang.com/)|
+|[王颖的博客](http://blog.oneinbest.com/)|[pluto Y - 章龙华](http://www.pluto-y.com/#open)|[Casa Taloyum](https://casatwy.com/)|
+|[IAN博客](https://www.ianisme.com/)|[sunnyxx](http://blog.sunnyxx.com/)|[秦小风's博客](http://shavekevin.com/)|
+|[TimothyQiu's Blog](http://timothyqiu.com/)|[雷纯锋的技术博客](http://blog.leichunfeng.com/)|[SwiftGG 走心的 Swift 翻译组](http://swift.gg/)|
+|[美团技术团队](https://tech.meituan.com/)|||
 
-# iOS 
+||英文||
+|:---------|:------------:|---------:|
+|[Ole Begemann](https://oleb.net/)|[iOS Dev Weekly](https://iosdevweekly.com/)||
+
+
+# OC知识点
+
+## 分类
+
+* [深入理解Objective-C：Category -- 美团技术团队](https://tech.meituan.com/DiveIntoCategory.html)
+
+## 关联对象
+
+* [Associated Objects](http://nshipster.cn/associated-objects/) <br>本文讲解关联对象的利与弊，值得阅读。
+
+* [关联对象 AssociatedObject 完全解析 - 面向信仰编程](https://draveness.me/ao) 笔者分为两个部分讲解关联对象，第一部分讲解关联对象的基本知识，第二部分从源码分析关联对象的实现。
 
 ## Runtime  <p id="Runtime"/>
 
@@ -48,8 +74,6 @@
 * [Swift & the Objective-C Runtime - NShipster](http://nshipster.cn/swift-objc-runtime/) <br>从Swift 视角来观察这两个运行时中关于关联对象(associated objects)和方法交叉(method swizzling)的技术
 
 * [结合 category 工作原理分析 OC2.0 中的 runtime - bestswifter](https://bestswifter.com/runtime-category/) <br>很多人都读过`runtime.h`中`objc_class`结构体代码，你思考过`OBJC2_UNAVAILABLE`是什么意思吗？请看这篇文章，深入较少category工作原理。
-
-* [Associated Objects](http://nshipster.cn/associated-objects/) <br>本文讲解关联对象的利与弊，值得阅读。
 
 * [iOS runtime实战应用：成员变量和属性 - 明仔Su](http://www.jianshu.com/p/d361f169423b) <br> 作者使用简单的例子介绍了`Runtime`实现那些功能。 作者简书中有多篇关于`Runtime`文章，值得阅读。其他的文章也不错哦！
 
@@ -73,6 +97,8 @@
 
 * [iOS Runtime详解](https://juejin.im/post/5ac0a6116fb9a028de44d717)
 * [iOS底层原理总结 - 探寻KVO本质](https://juejin.im/post/5adab70cf265da0b736d37a8)
+
+* [深入理解Objective-C：方法缓存 -- 美团技术团队](https://tech.meituan.com/DiveIntoMethodCache.html)
 
 ### 应用示例
 * [一行代码快速集成tableView头部缩放视图 - 袁峥老师@吖了个峥](http://www.jianshu.com/p/859e3ef76b05) <br>使用`Runtime`实现`tableView`的头部视图缩放。一个简单的应用示例。
@@ -127,6 +153,7 @@
 * [iOS 集合的深复制与浅复制](https://www.zybuluo.com/MicroCai/note/50592)
 
 * [iOS中Block的用法，示例，应用场景，与底层原理解析（这可能是最详细的Block解析)](https://juejin.im/post/5add619f6fb9a07ac90cced6)
+
 
 ## Swift  <p id="swift">
 
