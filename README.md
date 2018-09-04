@@ -37,7 +37,7 @@
 |[王颖的博客](http://blog.oneinbest.com/)|[pluto Y - 章龙华](http://www.pluto-y.com/#open)|[Casa Taloyum](https://casatwy.com/)|
 |[IAN博客](https://www.ianisme.com/)|[sunnyxx](http://blog.sunnyxx.com/)|[秦小风's博客](http://shavekevin.com/)|
 |[TimothyQiu's Blog](http://timothyqiu.com/)|[雷纯锋的技术博客](http://blog.leichunfeng.com/)|[SwiftGG 走心的 Swift 翻译组](http://swift.gg/)|
-|[美团技术团队](https://tech.meituan.com/)|||
+|[美团技术团队](https://tech.meituan.com/)|[MrPeak杂货铺](http://mrpeak.cn/)||
 
 ||英文||
 |:---------|:------------:|---------:|
