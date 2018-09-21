@@ -13,6 +13,7 @@
 	- [组件化思想](#module)
 	- [iOS面试](#interview)
 	- [源码分析](#sourceCode)
+	- [iOS逆向](#jailbreak)
 	- [其他](#sourceCode)
 - [算法](#ALG)
 - [计算机网络](#net)
@@ -214,6 +215,10 @@
 * [SDWebImage 源码解析](https://juejin.im/post/5a4080d16fb9a0451969d0aa)
 * [SDWebImage源码解析(一) - (四)](https://huang303513.github.io/2017/05/01/SDWebImage%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90(%E4%B8%80).html)
 * [Analyze 关于iOS开源框架源码解析的文章](https://github.com/Draveness/analyze)
+
+## iOS逆向开发 <p id="jailbreak">
+
+* [笔者的入门系列](https://github.com/jesusLove/Owenli_Blog)
 
 ## 其他
 
