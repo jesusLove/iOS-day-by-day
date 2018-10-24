@@ -11,6 +11,8 @@
 	- [Swift](#swift)
 	- [fastlane自动化构建](#fastlane)
 	- [组件化思想](#module)
+	- [设计模式](#pattern)
+	- [性能优化](#performance)
 	- [iOS面试](#interview)
 	- [源码分析](#sourceCode)
 	- [iOS逆向](#jailbreak)
@@ -30,6 +32,7 @@
 - [我Star的库](#star)
 
 # 优秀博客 <p id="blog">
+
 ||优秀博客（排名不分先后）||
 |:---------|:------------:|---------:|
 |[Andy矢倉](http://www.rockerhx.com/)|[WeRead团队博客](https://wereadteam.github.io/)|[贾鹏辉的技术博客](http://www.devio.org/)|
@@ -39,6 +42,7 @@
 |[IAN博客](https://www.ianisme.com/)|[sunnyxx](http://blog.sunnyxx.com/)|[秦小风's博客](http://shavekevin.com/)|
 |[TimothyQiu's Blog](http://timothyqiu.com/)|[雷纯锋的技术博客](http://blog.leichunfeng.com/)|[SwiftGG 走心的 Swift 翻译组](http://swift.gg/)|
 |[美团技术团队](https://tech.meituan.com/)|[MrPeak杂货铺](http://mrpeak.cn/)|[玉令天下的博客](http://yulingtianxia.com/)|
+|[NewPan](https://www.jianshu.com/u/e2f2d779c022)|||
 
 ||英文||
 |:---------|:------------:|---------:|
@@ -47,18 +51,14 @@
 
 # OC知识点
 
-## 分类
 
-* [深入理解Objective-C：Category -- 美团技术团队](https://tech.meituan.com/DiveIntoCategory.html)
-
-## 关联对象
-
-* [Associated Objects](http://nshipster.cn/associated-objects/) <br>本文讲解关联对象的利与弊，值得阅读。
-
-* [关联对象 AssociatedObject 完全解析 - 面向信仰编程](https://draveness.me/ao) 笔者分为两个部分讲解关联对象，第一部分讲解关联对象的基本知识，第二部分从源码分析关联对象的实现。
 
 ## Runtime  <p id="Runtime"/>
 
+
+* [深入理解Objective-C：Category -- 美团技术团队](https://tech.meituan.com/DiveIntoCategory.html)
+* [Associated Objects](http://nshipster.cn/associated-objects/) <br>本文讲解关联对象的利与弊，值得阅读。
+* [关联对象 AssociatedObject 完全解析 - 面向信仰编程](https://draveness.me/ao) 笔者分为两个部分讲解关联对象，第一部分讲解关联对象的基本知识，第二部分从源码分析关联对象的实现。
 * [Objective-C Runtime Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Introduction/Introduction.html)✨
 官方文档
 
@@ -98,7 +98,6 @@
 
 * [iOS Runtime详解](https://juejin.im/post/5ac0a6116fb9a028de44d717)
 * [iOS底层原理总结 - 探寻KVO本质](https://juejin.im/post/5adab70cf265da0b736d37a8)
-
 * [深入理解Objective-C：方法缓存 -- 美团技术团队](https://tech.meituan.com/DiveIntoMethodCache.html)
 
 ### 应用示例
@@ -107,6 +106,7 @@
 * [iOS数据埋点统计方案选型(附Demo)：运行时Method Swizzling机制与AOP编程(面向切面编程)](https://juejin.im/post/5ae28f686fb9a07aaf34ee27)
 
 ## Runloop  <p id="RunLoop"/>
+
 * [Threading Programming Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html) ✨
 * [NSRunLoop Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSRunLoop_Class/index.html) ✨
 
@@ -173,6 +173,7 @@
 * [fastlane 教程: 入门](http://blog.csdn.net/kmyhy/article/details/52441681)
 * [fastlane配置样例](https://www.jianshu.com/p/aa34e6ac47cc?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 * [插件安装失败解决方案](https://github.com/fastlane/fastlane/issues/8431)
+* [[译] 构建、测试、分发！运用 Fastlane 与 Jenkins，完整的 iOS 持续交付指南](https://juejin.im/post/5af430f0f265da0b8262d1ea)
 
 
 ## 组件化思想 <p id="module">
@@ -193,7 +194,23 @@
 * [BeeHive —— 一个优雅但还在完善中的解耦框架](https://www.jianshu.com/p/24f6299ebe82)
 * [BeeHive-阿里开源iOS模块解耦框架源码解析](https://www.jianshu.com/p/76e2377a6fb4)
 * [iOS大型项目解耦方案有难度？BeeHive设计优化来帮助](https://yq.aliyun.com/articles/71685?utm_campaign=wenzhang&utm_medium=article&utm_source=QQ-qun&utm_content=m_12590)
+* [iOS 组件化 —— 路由设计思路分析(饿了么物流技术团队)](https://juejin.im/post/5ab85a346fb9a028e52dd16e)
+* [iOS 从零到一搭建组件化项目框架](https://juejin.im/post/5ba3cc0df265da0aac6fdaa0)
+* [蜂鸟商家版 iOS 组件化 / 模块化实践总结](https://juejin.im/post/5a620cf5f265da3e36415764)
+* [iOS 组件化方案(mrpeak)](https://juejin.im/entry/57e2720ca22b9d00612fa61a)
 
+## 设计模式 <p id="pattern">
+
+* [面向对象设计的六大设计原则（附 Demo & UML类图）](https://juejin.im/post/5b9526c1e51d450e69731dc2)
+* [面向对象设计的设计模式（一）：创建型模式（附 Demo & UML类图）](https://juejin.im/post/5bcb0362e51d450e7042eb6d)
+
+## 性能优化 <p id="performance">
+
+* [iOS开发中的离屏渲染](https://www.jianshu.com/p/ceae1646cff2)
+* [iOS性能优化——图片加载和处理](https://www.jianshu.com/p/7d8a82115060)
+* [iOS-离屏渲染详解](https://www.jianshu.com/p/57e2ec17585b)
+* [[iOS]一次立竿见影的启动时间优化](https://www.jianshu.com/p/c1734cbdf39b)
+* [美团点评移动端基础日志库——Logan](https://tech.meituan.com/Logan.html)
 
 ## 测试
 
@@ -206,7 +223,14 @@
 * [2018.4月份iOS面试经历](https://juejin.im/post/5adaed6a518825673123c757)
 * [iOS面试败北感悟 | 掘金技术征文](https://juejin.im/post/5ad0e8975188255c9323b490)
 * [iOS,面试必看，最全梳理](https://www.jianshu.com/p/5d2163640e26)
-
+* [做到这些，让BAT的offer不再难拿](https://juejin.im/post/5b860a046fb9a019b869b141)
+* [入职三天，公司给了100块钱叫我走人| 掘金技术征文](https://juejin.im/post/5bc3288df265da0af407346a)
+* [2018年 iOS 面试心得 -J_Knight_](https://juejin.im/post/5b4cd5aae51d455b5d3efa2c)
+* [iOS面试珠玑](https://juejin.im/post/5b03936a6fb9a07ac162bfe0)
+* [一言不合就学习：iOS面试常见问题最全梳理](http://www.devstore.cn/essay/essayInfo/6525.html)
+* [面试 -- 网络 HTTP](https://juejin.im/post/5872309261ff4b005c4580d4)
+* [可能碰到的iOS笔试面试题（6）--内存管理](https://www.jianshu.com/p/0ad9957e3716)
+* [iOS 面试合集 - 收藏集 - 掘金](https://www.jianshu.com/p/fc5be1a28d61)
 
 ## 源码分析 <p id="sourceCode">
 
@@ -218,7 +242,10 @@
 
 ## iOS逆向开发 <p id="jailbreak">
 
+* [**论坛**](http://bbs.iosre.com/)
 * [笔者的入门系列](https://github.com/jesusLove/Owenli_Blog)
+* [iOS逆向工程优秀博客汇集(持续更新...)](https://www.jianshu.com/p/e2eef5f9a09d)
+* [iOS逆向开发学习资料整理](https://www.jianshu.com/p/9bffa160aa63)
 
 ## 其他
 
