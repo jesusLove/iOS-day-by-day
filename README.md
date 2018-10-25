@@ -42,7 +42,7 @@
 |[IAN博客](https://www.ianisme.com/)|[sunnyxx](http://blog.sunnyxx.com/)|[秦小风's博客](http://shavekevin.com/)|
 |[TimothyQiu's Blog](http://timothyqiu.com/)|[雷纯锋的技术博客](http://blog.leichunfeng.com/)|[SwiftGG 走心的 Swift 翻译组](http://swift.gg/)|
 |[美团技术团队](https://tech.meituan.com/)|[MrPeak杂货铺](http://mrpeak.cn/)|[玉令天下的博客](http://yulingtianxia.com/)|
-|[NewPan](https://www.jianshu.com/u/e2f2d779c022)|||
+|[NewPan](https://www.jianshu.com/u/e2f2d779c022)|[字节跳动技术博客](https://techblog.toutiao.com/)||
 
 ||英文||
 |:---------|:------------:|---------:|
@@ -206,11 +206,19 @@
 
 ## 性能优化 <p id="performance">
 
-* [iOS开发中的离屏渲染](https://www.jianshu.com/p/ceae1646cff2)
+* [iOS 保持界面流畅的技巧 - ibireme](https://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/)
+* [离屏渲染优化详解：实例示范+性能测试](https://www.jianshu.com/p/ca51c9d3575b)
+* [浅谈iOS中的视图优化](http://kuailejim.com/2016/04/22/%E6%B5%85%E8%B0%88iOS%E4%B8%AD%E7%9A%84%E8%A7%86%E5%9B%BE%E4%BC%98%E5%8C%96/)
 * [iOS性能优化——图片加载和处理](https://www.jianshu.com/p/7d8a82115060)
 * [iOS-离屏渲染详解](https://www.jianshu.com/p/57e2ec17585b)
 * [[iOS]一次立竿见影的启动时间优化](https://www.jianshu.com/p/c1734cbdf39b)
 * [美团点评移动端基础日志库——Logan](https://tech.meituan.com/Logan.html)
+* [质量监控-卡顿检测](http://sindrilin.com/2017/03/24/blocking_observe.html)
+* [今日头条iOS客户端启动速度优化](https://techblog.toutiao.com/2017/01/17/iosspeed/)
+* [优化 App 的启动时间 - 杨萧玉](http://yulingtianxia.com/blog/2016/10/30/Optimizing-App-Startup-Time/)
+* [微信读书 iOS 性能优化总结](https://wereadteam.github.io/2016/05/03/WeRead-Performance/)
+* [iOS 性能调优,成为一名合格iOS程序员必须掌握的技能](https://www.jianshu.com/p/05b68c84913a)
+* [优化UITableViewCell高度计算的那些事](http://blog.sunnyxx.com/2015/05/17/cell-height-calculation/)
 
 ## 测试
 
