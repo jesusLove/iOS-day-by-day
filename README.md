@@ -81,7 +81,7 @@
 * [Runtime 10种用法（没有比这更全的了）](http://www.jianshu.com/p/3182646001d1)
 <br> 作者整理`Runtime`十种用法。看完你就知道`Runtime`的重要性了。
 
-* [OC最实用的runtime总结，面试、工作你看我就足够了！](http://www.jianshu.com/p/ab966e8a82e2)
+* [OC最实用的runtime总结，面试、工作你看我就足够了！❤️❤️❤️❤️❤️](http://www.jianshu.com/p/ab966e8a82e2)
 <br>如何应用运行时？
 <br>1.将某些OC代码转为运行时代码，探究底层，比如`block`的实现原理；
 <br>2.拦截系统自带的方法调用（Swizzle 黑魔法），比如拦截i`mageNamed:`、`viewDidLoad`、`alloc`；
