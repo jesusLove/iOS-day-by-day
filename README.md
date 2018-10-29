@@ -267,6 +267,10 @@
 * [深入理解log机制](http://feihu.me/blog/2014/insight-into-log/)
 * [iOS Tips 知识小集- Github](https://github.com/awesome-tips/iOS-Tips)
 
+### 屏幕适配
+* [最近很火的 Safe Area 到底是什么](https://www.jianshu.com/p/63c0b6cc66fd)
+* [有关iOS11和iPhoneX的适配问题](https://www.jianshu.com/p/a4e778c2236e)
+
 
 # 算法<p id="ALG">
 
@@ -327,6 +331,15 @@
 
 * [gavinkwoe/weapp-ide-crack](https://github.com/gavinkwoe/weapp-ide-crack)<br>【应用号】IDE + 破解 + Demo
 * [小程序开发课程 - 优达学城(免费)](https://cn.udacity.com/course/wechat-mini-program--ud666-cn-1)
+
+## Flutter 
+
+* [Flutter中文官网](https://flutter-io.cn/)
+* [Flutter中文网，官网的镜像网站](https://flutterchina.club/) 介绍如下：[Flutter中文网正式上线](https://juejin.im/post/5ad2caac5188255c5668e118)
+* [Flutter英文官网](https://flutter.io/)
+* [Flutter教程(一) Flutter简介](https://juejin.im/post/5ad6b8db6fb9a028c42eb90a)
+* [Flutter 原理简解](https://mp.weixin.qq.com/s/CQQXD0TrlbaNWjoClIcDtw)
+
 
 ## 其他
 
