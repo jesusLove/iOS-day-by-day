@@ -204,6 +204,7 @@
 * [面向对象设计的六大设计原则（附 Demo & UML类图）](https://juejin.im/post/5b9526c1e51d450e69731dc2)
 * [面向对象设计的设计模式（一）：创建型模式（附 Demo & UML类图）](https://juejin.im/post/5bcb0362e51d450e7042eb6d)
 
+
 ## 性能优化 <p id="performance">
 
 * [iOS 保持界面流畅的技巧 - ibireme](https://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/)
@@ -219,6 +220,7 @@
 * [微信读书 iOS 性能优化总结](https://wereadteam.github.io/2016/05/03/WeRead-Performance/)
 * [iOS 性能调优,成为一名合格iOS程序员必须掌握的技能](https://www.jianshu.com/p/05b68c84913a)
 * [优化UITableViewCell高度计算的那些事](http://blog.sunnyxx.com/2015/05/17/cell-height-calculation/)
+* [iOS 性能优化总结](https://juejin.im/post/5ace078cf265da23994ee493)
 
 ## 测试
 
@@ -251,13 +253,12 @@
 ## iOS逆向开发 <p id="jailbreak">
 
 * [**论坛**](http://bbs.iosre.com/)
-* [笔者的入门系列](https://github.com/jesusLove/Owenli_Blog)
 * [iOS逆向工程优秀博客汇集(持续更新...)](https://www.jianshu.com/p/e2eef5f9a09d)
 * [iOS逆向开发学习资料整理](https://www.jianshu.com/p/9bffa160aa63)
+* [iOS逆向与安全:基础篇](https://jesuslove.github.io/2018/10/31/iOS%E9%80%86%E5%90%91%E4%B8%8E%E5%AE%89%E5%85%A8-%E5%9F%BA%E7%A1%80%E7%AF%87/)
 
 ## 其他
 
-* [iOS 性能优化总结](https://juejin.im/post/5ace078cf265da23994ee493)
 * [iOS crash 日志堆栈解析](https://juejin.im/post/5adf15f2518825671775f3e1)
 * [【iOS】让我们一次性解决导航栏的所有问题](https://www.jianshu.com/p/31f177158c9e)
 * [iOS右滑返回手势深度全解和最佳实施方案](https://juejin.im/post/5adeda3051882567336a5dc9)
@@ -266,6 +267,7 @@
 * [程序员必备的代码审查（Code Review）清单](http://blog.jobbole.com/83595/)
 * [深入理解log机制](http://feihu.me/blog/2014/insight-into-log/)
 * [iOS Tips 知识小集- Github](https://github.com/awesome-tips/iOS-Tips)
+* [iOS系统中导航栏的转场解决方案与最佳实践](https://tech.meituan.com/navigation_transition_solution_and_best_practice_in_meituan.html)
 
 ### 屏幕适配
 * [最近很火的 Safe Area 到底是什么](https://www.jianshu.com/p/63c0b6cc66fd)
@@ -339,6 +341,7 @@
 * [Flutter英文官网](https://flutter.io/)
 * [Flutter教程(一) Flutter简介](https://juejin.im/post/5ad6b8db6fb9a028c42eb90a)
 * [Flutter 原理简解](https://mp.weixin.qq.com/s/CQQXD0TrlbaNWjoClIcDtw)
+* [Flutter 布局系列](https://juejin.im/post/5bab35ff5188255c3272c228)
 
 
 ## 其他
