@@ -42,7 +42,7 @@
 |[IAN博客](https://www.ianisme.com/)|[sunnyxx](http://blog.sunnyxx.com/)|[秦小风's博客](http://shavekevin.com/)|
 |[TimothyQiu's Blog](http://timothyqiu.com/)|[雷纯锋的技术博客](http://blog.leichunfeng.com/)|[SwiftGG 走心的 Swift 翻译组](http://swift.gg/)|
 |[美团技术团队](https://tech.meituan.com/)|[MrPeak杂货铺](http://mrpeak.cn/)|[玉令天下的博客](http://yulingtianxia.com/)|
-|[NewPan](https://www.jianshu.com/u/e2f2d779c022)|[字节跳动技术博客](https://techblog.toutiao.com/)||
+|[NewPan](https://www.jianshu.com/u/e2f2d779c022)|[字节跳动技术博客](https://techblog.toutiao.com/)|[SketchK's Studio.](http://sketchk.xyz/)|
 
 ||英文||
 |:---------|:------------:|---------:|
@@ -260,18 +260,27 @@
 ## 其他
 
 * [iOS crash 日志堆栈解析](https://juejin.im/post/5adf15f2518825671775f3e1)
-* [【iOS】让我们一次性解决导航栏的所有问题](https://www.jianshu.com/p/31f177158c9e)
-* [iOS右滑返回手势深度全解和最佳实施方案](https://juejin.im/post/5adeda3051882567336a5dc9)
+
 * [iOS 移动端架构初探心得](https://juejin.im/post/5a183f38f265da432528fefc)
 * [禅与 Objective-C 编程艺术 - 中文翻译版](https://github.com/oa414/objc-zen-book-cn#categories) 
 * [程序员必备的代码审查（Code Review）清单](http://blog.jobbole.com/83595/)
 * [深入理解log机制](http://feihu.me/blog/2014/insight-into-log/)
 * [iOS Tips 知识小集- Github](https://github.com/awesome-tips/iOS-Tips)
+
+## 导航栏
+
 * [iOS系统中导航栏的转场解决方案与最佳实践](https://tech.meituan.com/navigation_transition_solution_and_best_practice_in_meituan.html)
+* [UIBarButtonItem 在 iOS 11 上的改变及应对方案](http://sketchk.xyz/2018/02/23/How-to-make-your-UIBarButtonItem-perfect-match-in-iOS/)
+* [【iOS】让我们一次性解决导航栏的所有问题](https://www.jianshu.com/p/31f177158c9e)
+* [iOS右滑返回手势深度全解和最佳实施方案](https://juejin.im/post/5adeda3051882567336a5dc9)
+* [UIAppearance 使用指北](http://sketchk.xyz/2018/01/25/Understanding-UIAppearance/)
+
 
 ### 屏幕适配
+
 * [最近很火的 Safe Area 到底是什么](https://www.jianshu.com/p/63c0b6cc66fd)
 * [有关iOS11和iPhoneX的适配问题](https://www.jianshu.com/p/a4e778c2236e)
+* [UIBarButtonItem在iOS11上的改变及应对方案](http://sketchk.xyz/2018/02/23/How-to-make-your-UIBarButtonItem-perfect-match-in-iOS/)
 
 
 # 算法<p id="ALG">
