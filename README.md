@@ -2,21 +2,24 @@
 
 学习过程中遇到的经典的文章，整理了方便以后查阅。欢迎小伙伴加入，一起学习和分享。
 
+
 # 目录
 - [优秀博客](#blog)
 - [iOS]()
-	- [Runtime](#Runtime)
-	- [RunLoop](#RunLoop)
-	- [Block](#block)
-	- [Swift](#swift)
-	- [fastlane自动化构建](#fastlane)
-	- [组件化思想](#module)
-	- [设计模式](#pattern)
-	- [性能优化](#performance)
-	- [iOS面试](#interview)
-	- [源码分析](#sourceCode)
-	- [iOS逆向](#jailbreak)
-	- [其他](#sourceCode)
+  - [WWDC](#wwdc)
+  - [SwiftUI](#SwiftUI)
+  - [Runtime](#Runtime)
+  - [RunLoop](#RunLoop)
+  - [Block](#block)
+  - [Swift](#swift)
+  - [fastlane自动化构建](#fastlane)
+  - [组件化思想](#module)
+  - [设计模式](#pattern)
+  - [性能优化](#performance)
+  - [iOS面试](#interview)
+  - [源码分析](#sourceCode)
+  - [iOS逆向](#jailbreak)
+  - [其他](#sourceCode)
 - [算法](#ALG)
 - [计算机网络](#net)
 - [大前端](#web)
@@ -30,39 +33,52 @@
 - [机器学习/深度学习](#ml)
 - [其他资料](#other)
 - [设计相关](#设计)
-- [我Star的库](#star)
 
 # 优秀博客 <p id="blog">
 
-| ---|    优秀博客（排名不分先后） |   --- |
-| :------------------- | :------------------------: | ---------------------: |
-| [Andy矢倉](http://www.rockerhx.com/)             |      [WeRead团队博客](https://wereadteam.github.io/)      |       [贾鹏辉的技术博客](http://www.devio.org/) |
-| [杜玮的博客](https://dywane.github.io/)          |         [黄文臣](https://blog.csdn.net/Hello_Hwc)         |          [唐巧的博客](http://blog.devtang.com/) |
-| [limboy](http://limboy.me/)                      | [Garan no Dou一只魔法师的工坊](https://blog.ibireme.com/) |     [Kitten 的时间胶囊](http://kittenyang.com/) |
-| [王颖的博客](http://blog.oneinbest.com/)         |     [pluto Y - 章龙华](http://www.pluto-y.com/#open)      |            [Casa Taloyum](https://casatwy.com/) |
-| [IAN博客](https://www.ianisme.com/)              |            [sunnyxx](http://blog.sunnyxx.com/)            |          [秦小风's博客](http://shavekevin.com/) |
-| [TimothyQiu's Blog](http://timothyqiu.com/)      |     [雷纯锋的技术博客](http://blog.leichunfeng.com/)      | [SwiftGG 走心的 Swift 翻译组](http://swift.gg/) |
-| [美团技术团队](https://tech.meituan.com/)        |             [MrPeak杂货铺](http://mrpeak.cn/)             |     [玉令天下的博客](http://yulingtianxia.com/) |
-| [NewPan](https://www.jianshu.com/u/e2f2d779c022) |     [字节跳动技术博客](https://techblog.toutiao.com/)     |        [SketchK's Studio.](http://sketchk.xyz/) |
-| [聊宅-lision](https://lision.me)                 |                            --                             |                                             --- |
+|                       ---                        |                 优秀博客（排名不分先后）                  |                       ---                       |
+| :----------------------------------------------: | :-------------------------------------------------------: | :---------------------------------------------: |
+|       [Andy矢倉](http://www.rockerhx.com/)       |      [WeRead团队博客](https://wereadteam.github.io/)      |    [贾鹏辉的技术博客](http://www.devio.org/)    |
+|     [杜玮的博客](https://dywane.github.io/)      |         [黄文臣](https://blog.csdn.net/Hello_Hwc)         |     [唐巧的博客](http://blog.devtang.com/)      |
+|           [limboy](http://limboy.me/)            | [Garan no Dou一只魔法师的工坊](https://blog.ibireme.com/) |   [Kitten 的时间胶囊](http://kittenyang.com/)   |
+|     [王颖的博客](http://blog.oneinbest.com/)     |     [pluto Y - 章龙华](http://www.pluto-y.com/#open)      |      [Casa Taloyum](https://casatwy.com/)       |
+|       [IAN博客](https://www.ianisme.com/)        |            [sunnyxx](http://blog.sunnyxx.com/)            |     [秦小风's博客](http://shavekevin.com/)      |
+|   [TimothyQiu's Blog](http://timothyqiu.com/)    |     [雷纯锋的技术博客](http://blog.leichunfeng.com/)      | [SwiftGG 走心的 Swift 翻译组](http://swift.gg/) |
+|    [美团技术团队](https://tech.meituan.com/)     |             [MrPeak杂货铺](http://mrpeak.cn/)             |   [玉令天下的博客](http://yulingtianxia.com/)   |
+| [NewPan](https://www.jianshu.com/u/e2f2d779c022) |     [字节跳动技术博客](https://techblog.toutiao.com/)     |    [SketchK's Studio.](http://sketchk.xyz/)     |
+|         [聊宅-lision](https://lision.me)         |                            --                             |                       ---                       |
 
 
-| --   | 英文  | -- |
-| :--- | :---: |:-- |
-| [Ole Begemann](https://oleb.net/) | [iOS Dev Weekly](https://iosdevweekly.com/) |
+| --                                |                    英文                     | --                                        |
+| :-------------------------------- | :-----------------------------------------: | :---------------------------------------- |
+| [Ole Begemann](https://oleb.net/) | [iOS Dev Weekly](https://iosdevweekly.com/) | [Use Your Loaf](https://useyourloaf.com/) |
 
+# WWDC <p id="wwdc">
+
+* [WWDC19内参 - 小专栏](https://juejin.im/post/5d1c11c9e51d45590a445b8e)
+
+# SwiftUI <p id="SwiftUI">
+
+* [苹果官网入门指导](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views) 请配合下面两篇文章食用[SwiftUI的一些初步探索（一）](https://onevcat.com/2019/06/swift-ui-firstlook/)和 [SwiftUI的一些初步探索（二）](https://onevcat.com/2019/06/swift-ui-firstlook-2/)。
+* [SwiftUI的一些初步探索（一）- onevcat](https://onevcat.com/2019/06/swift-ui-firstlook/)
+* [SwiftUI的一些初步探索（二）- onevcat](https://onevcat.com/2019/06/swift-ui-firstlook-2/) 对 官方入门指导 知识点的补充。
+* [SwiftUI Tutorial - raywenderlich](https://www.raywenderlich.com/3715234-swiftui-getting-started)
+* [Fucking SwiftUI](https://fuckingswiftui.com/) 对比 UIKit 控件之间的差别和映射关系。网址就叫 `fuckingswiftui.com`。😆
+* [SwiftUI 控件布局示例](https://www.hackingwithswift.com/quick-start/swiftui) SwiftUI 各种控件，布局，事件等等讲解很详细。
+* [SwiftUI Hub](https://swiftuihub.com/) 一个 SwiftUI 网址。
+* [About-SwiftUI](https://github.com/Juanpe/About-SwiftUI) 收集 SwiftUI 相关各种信息。
 
 # OC知识点
 
 ## Runtime  <p id="Runtime"/>
 
-|文章|文章来源|类别|说明|
-|:-------------|:----:|:---:|:---|
-|[Objective-C Runtime Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ObjCRuntimeRef/#//apple_ref/doc/uid/TP40001418-CH1g-126286) <br>[Objective-C Runtime Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Introduction/Introduction.html)|[Apple官网]()|`Runtime Guide`||
-|[深入理解Objective-C：Category](https://tech.meituan.com/DiveIntoCategory.html)|[美团技术团队](https://tech.meituan.com)|`Category`||
-|[结合 category 工作原理分析 OC2.0 中的 runtime](https://bestswifter.com/runtime-category/) |[bestswifter](https://bestswifter.com)|`Category`|很多人都读过`runtime.h`中`objc_class`结构体代码，你思考过`OBJC2_UNAVAILABLE`是什么意思吗？请看这篇文章，深入介绍category工作原理。|
-|[Associated Objects](http://nshipster.cn/associated-objects/)|[NSHipster.cn](http://nshipster.cn) |`Associated Objects`|本文讲解关联对象的利与弊，值得阅读。|
-|[关联对象 AssociatedObject 完全解析](https://draveness.me/ao)|[面向信仰编程](https://draveness.me)|`Associated Objects`|笔者分为两个部分讲解关联对象，第一部分讲解关联对象的基本知识，第二部分从源码分析关联对象的实现。|
+| 文章                                                                                                                                                                                                                                                                                                                                  |                 文章来源                 |         类别         |                                                                说明                                                                |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------: | :------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |
+| [Objective-C Runtime Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ObjCRuntimeRef/#//apple_ref/doc/uid/TP40001418-CH1g-126286) <br>[Objective-C Runtime Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Introduction/Introduction.html) |              [Apple官网]()               |   `Runtime Guide`    |                                                                                                                                    |
+| [深入理解Objective-C：Category](https://tech.meituan.com/DiveIntoCategory.html)                                                                                                                                                                                                                                                       | [美团技术团队](https://tech.meituan.com) |      `Category`      |                                                                                                                                    |
+| [结合 category 工作原理分析 OC2.0 中的 runtime](https://bestswifter.com/runtime-category/)                                                                                                                                                                                                                                            |  [bestswifter](https://bestswifter.com)  |      `Category`      | 很多人都读过`runtime.h`中`objc_class`结构体代码，你思考过`OBJC2_UNAVAILABLE`是什么意思吗？请看这篇文章，深入介绍category工作原理。 |
+| [Associated Objects](http://nshipster.cn/associated-objects/)                                                                                                                                                                                                                                                                         |   [NSHipster.cn](http://nshipster.cn)    | `Associated Objects` |                                                本文讲解关联对象的利与弊，值得阅读。                                                |
+| [关联对象 AssociatedObject 完全解析](https://draveness.me/ao)                                                                                                                                                                                                                                                                         |   [面向信仰编程](https://draveness.me)   | `Associated Objects` |                  笔者分为两个部分讲解关联对象，第一部分讲解关联对象的基本知识，第二部分从源码分析关联对象的实现。                  |
 
 * [Runtime - 玉令天下的博客](http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/) <br>可以配合南峰子文章阅读。
 
@@ -77,7 +93,6 @@
 
 * [Runtime 10种用法（没有比这更全的了）](http://www.jianshu.com/p/3182646001d1)
 <br> 作者整理`Runtime`十种用法。看完你就知道`Runtime`的重要性了。
-
 * [OC最实用的runtime总结，面试、工作你看我就足够了！❤️❤️❤️❤️❤️](http://www.jianshu.com/p/ab966e8a82e2)
 <br>如何应用运行时？
 <br>1.将某些OC代码转为运行时代码，探究底层，比如`block`的实现原理；
@@ -156,7 +171,7 @@
 
 ## Swift  <p id="swift">
 
-* [The Swift Programming Language](http://wiki.jikexueyuan.com/project/swift/)<br/>极客学院出版，中文版Swift官方文档。
+* [The Swift Programming Language - 中文版](https://swiftgg.gitbook.io/swift/) SwiftGG 翻译。
 * [Swifter：Swift开发者必备的Tips（第三版）购买链接](https://objccn.io/products/)<br/>Swifter：Swift开发者必备的Tips第三版，这个链接是购买链接。推荐这本书籍。这本书很赞，内容价值远远超多书的价格。
 * [SwiftGG 走心的 Swift 翻译组](http://swift.gg/archives/)<br/>经常更新Swift文章。
 * [Swift中常用的开源库](https://github.com/SwiftOldDriver/SwiftMarch) ：从开发者角度介绍被广泛运用于实际Swift项目中的开源库。
@@ -258,7 +273,6 @@
 ## 其他
 
 * [iOS crash 日志堆栈解析](https://juejin.im/post/5adf15f2518825671775f3e1)
-
 * [iOS 移动端架构初探心得](https://juejin.im/post/5a183f38f265da432528fefc)
 * [禅与 Objective-C 编程艺术 - 中文翻译版](https://github.com/oa414/objc-zen-book-cn#categories) 
 * [程序员必备的代码审查（Code Review）清单](http://blog.jobbole.com/83595/)
@@ -338,7 +352,6 @@
 
 * [Meituan-Dianping/mpvue](https://github.com/Meituan-Dianping/mpvue)<br>基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系。 http://mpvue.com
 * [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)<br>微信小程序开发资源汇总 wechat weapp
-
 * [gavinkwoe/weapp-ide-crack](https://github.com/gavinkwoe/weapp-ide-crack)<br>【应用号】IDE + 破解 + Demo
 * [小程序开发课程 - 优达学城(免费)](https://cn.udacity.com/course/wechat-mini-program--ud666-cn-1)
 
@@ -385,86 +398,3 @@
 * [程序员技能图谱 -- Github](https://github.com/TeamStuQ/skill-map)
 * [掘金翻译计划 - Github](https://github.com/xitu/gold-miner)
 * [Programming Notes for Professionals books - Stack Overflow Document汇总PDF](https://goalkicker.com/) 一个神奇的免费下载PDF网站。
-
-# Star <p id="star">
-
-### 动画库
-
-**[Gemini](https://github.com/shoheiyokoyama/Gemini)** 2k +
->Gemini是用Swift编写的基于滚动的iOS动画框架。
-
-**[IBAnimatable](https://github.com/IBAnimatable/IBAnimatable)** 6.6k+
->使用IBAnimatable为Interface Store Builder中的App Store应用程序设计和原型化自定义UI，交互，导航，转换和动画。
-
-**[Spring](https://github.com/MengTo/Spring)** 11k+
->基于Swift的iOS动画库
-
-**[spruce-ios](https://github.com/willowtreeapps/spruce-ios)** 2.1k+ 
->Swift库用于编排屏幕上的动画。
-
-**[Material](https://github.com/CosmicMind/Material)** 8.8k+
->一个用于创建漂亮应用程序的UI / UX框架
-
-
-**[Hero](https://github.com/lkzhao/Hero)** 11k +
->一个建立iOS视图控制器转换的库。它在UIKit繁琐的转换API之上提供了一个声明层 - 为开发人员提供了一个简单的任务。
-
-**[Animated-tab-bar](https://github.com/Ramotion/animated-tab-bar)** 8.2k+
-> 封装带动画效果tabBar
-
-
-### 其他
-
-**[TextFieldEffects](https://github.com/raulriera/TextFieldEffects)** 4.3k+
->自定义的UITextFields效果由Codrops启发，使用Swift构建.
-
-**[EFQRCode](https://github.com/EyreFree/EFQRCode)**  2k+ 
->EFQRCode 是一个轻量级的、用来生成和识别二维码的纯 Swift 库，可根据输入的水印图和图标产生艺术二维码，基于 CoreImage 进行开发。
-
-
-**[FSPagerView](https://github.com/WenchaoD/FSPagerView)** 2.5k +
-
->FSPagerView是一个优雅的屏幕幻灯片库。这是非常有用的制作横幅视图，产品展示，欢迎/指南页面，屏幕/ ViewController滑块。
-
-**[AudioKit](https://github.com/AudioKit/AudioKit)** 4.3k+ 
-
->AudioKit是一款适用于iOS，MacOS和tvOS的音频合成，处理和分析平台。
-
-**[Eureka](https://github.com/xmartlabs/Eureka)** 7k +
-
->Swift中优雅的iOS表单生成器。
-
-**[PopupDialog](https://github.com/Orderella/PopupDialog)**
->一个简单的，可自定义的弹出警告框，可以代替`UIAlertViewController`。
-
-**[Hue](https://github.com/hyperoslo/Hue)**
->一个调色板库。
-
-**[Moya](https://github.com/Moya/Moya)** 7.5k + 
->网络请求库，基于`Alamofire`实现。
-
-**[SQLite.swift](https://github.com/stephencelis/SQLite.swift)** 4.7k + 
-> `SQLite3` 安全基于Swift的库
-
-**[SwifterSwift](https://github.com/SwifterSwift/SwifterSwift)** 4k +
->一个Swift原生扩展包。
-
-**[Charts](https://github.com/danielgindi/Charts)** 16k+
->强大的图表库。
-
-**[SwiftLint](https://github.com/realm/SwiftLint)** 8k+
->一个强制Swift风格和约定的工具
-
-
-**[GodEye](https://github.com/zixun/GodEye)** 2.7k+
->iOS 监控库，使用基于Swift的一行代码自动显示日志，崩溃，网络，ANR，泄漏，CPU，RAM，FPS，NetFlow，文件夹等。
-
-
-**[ActiveLabel.swift](https://github.com/optonaut/ActiveLabel.swift)** 2k+
-> 替换UILabel中的 `#`, `@`,`http://`。
-
-
-**[IGListKit](https://github.com/Instagram/IGListKit)** 7k+
->Instagram 程序员做的，IGListKit 是数据驱动的 UICollectionView 框架，为了构建快速和可扩展的列表。另外，它有助于你在 app 结束对于大量视图控制器的使用。看看这篇来自 [Ray Wenderlich 的教程](https://www.raywenderlich.com/147162/iglistkit-tutorial-better-uicollectionviews)，关于如何在项目中实现这个库，或者读读这篇 [Rodrigo Cavalcante 的文章](https://medium.com/cocoaacademymag/iglistkit-migrating-an-uitableview-to-iglistkitcollectionview-65a30cf9bac9#.nlslha2yt)，关于迁移现有的 UITableView 到 IGListCollectionView。
-
-
