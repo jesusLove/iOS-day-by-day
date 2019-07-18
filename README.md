@@ -23,6 +23,7 @@
   - [源码分析](#sourceCode)
   - [iOS逆向](#jailbreak)
   - [其他](#sourceCode)
+- [Git](#Git) 
 - [算法](#ALG)
 - [计算机网络](#net)
 - [大前端](#web)
@@ -302,6 +303,12 @@
 * [有关iOS11和iPhoneX的适配问题](https://www.jianshu.com/p/a4e778c2236e)
 * [UIBarButtonItem在iOS11上的改变及应对方案](http://sketchk.xyz/2018/02/23/How-to-make-your-UIBarButtonItem-perfect-match-in-iOS/)
 
+# Git <p id="Git">
+
+* [高质量的 Git 中文教程，源于国外社区的优秀文章和个人实践](https://github.com/geeeeeeeeek/git-recipes)
+* [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) 
+* [Git 工作流程 - 阮一峰](http://www.ruanyifeng.com/blog/2015/12/git-workflow.html)
+* [简介我的-Git-Work-Flow - 小鱼周凌宇](https://juejin.im/post/5a30cf876fb9a0450167f29a)
 
 # 算法<p id="ALG">
 
